@@ -12,19 +12,43 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '列表', link: '/list/' },
+      { text: '泛积木-低代码', link: 'https://www.fxss.work/' },
     ],
 
     sidebar: [
       {
         text: '列表',
         items: [
-          { text: '语义化版本倒序', link: '/list/versionSort' }
+          { text: '语义化版本倒序', link: '/list/versionSort' },
         ]
-      }
+      },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/fxss5201/fxss-leetcode' }
+      { icon: 'github', link: 'https://github.com/fxss5201/fxss-leetcode' },
     ],
+
+    editLink: {
+      pattern: 'https://github.com/fxss5201/fxss-leetcode/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页',
+    },
+
+    lastUpdated: {
+      text: '最新更新时间',
+    },
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+
+    footer: {
+      message: 'Released under the <a href="https://github.com/fxss5201/fxss-leetcode/blob/main/LICENSE">MIT License</a>.',
+      copyright: 'Copyright © 2024-present <a href="https://github.com/fxss5201">fxss5201</a>',
+    },
+
+    search: {
+      provider: 'local',
+    },
   }
 })
