@@ -20,6 +20,7 @@ export default defineConfig({
         text: '列表',
         items: [
           { text: '语义化版本倒序', link: '/list/versionSort' },
+          { text: '2696. 删除子串后的字符串最小长度', link: '/list/minimumStringLengthAfterRemovingSubstrings' }
         ]
       },
     ],

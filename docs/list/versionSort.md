@@ -2,8 +2,8 @@
 
 ::: code-group
 
-<<< ../../src/versionSort/versionSort.js#snippet{javascript} [javascript]
+<<< ../../src/versionSort/javascript.js{javascript} [javascript]
 
-<<< ../../src/versionSort/versionSort.ts#snippet{typescript} [typescript]
+<<< ../../src/versionSort/typescript.ts{typescript} [typescript]
 
 :::
