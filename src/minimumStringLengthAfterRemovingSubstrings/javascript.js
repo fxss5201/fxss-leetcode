@@ -4,8 +4,7 @@
 // 只去除 AB 或 CD
 export function minimumStringLengthAfterRemovingABOrCDSubstrings(str) {
   while(str.indexOf('AB') > -1 || str.indexOf('CD') > -1) {
-    str = str.replace('AB', '')
-    str = str.replace('CD', '')
+    str = str.replace('AB', '').replace('CD', '')
   }
   return str.length
 }
