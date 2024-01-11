@@ -9,6 +9,19 @@ export default defineConfig({
   description: "fxss-leetcode 算法",
   base,
   lastUpdated: true,
+  head: [
+    [
+      'script',
+      {},
+      `var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?83fa280fdd82db34539b332fcd3fe07a";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();`
+    ]
+  ],
   markdown: {
     lineNumbers: true
   },
