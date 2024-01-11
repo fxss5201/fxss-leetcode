@@ -1,16 +1,37 @@
 import { defineConfig } from 'vitepress'
 
+const base = '/fxss-leetcode/'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "fxss-leetcode",
   titleTemplate: 'fxss',
   description: "fxss-leetcode 算法",
-  base: '/fxss-leetcode/',
+  base,
   lastUpdated: true,
   markdown: {
     lineNumbers: true
   },
+  locales: {
+    root: {
+      label: '简体中文',
+      lang: 'zh'
+    }
+  },
+  sitemap: {
+    hostname: 'https://fxss5201.github.io',
+    transformItems: (items) => {
+      return items.map(item => {
+        return {
+          ...item,
+          url: base + item.url
+        }
+      })
+    }
+  },
   themeConfig: {
+    i18nRouting: false,
+    returnToTopLabel: '返回顶部',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
@@ -54,6 +75,23 @@ export default defineConfig({
 
     search: {
       provider: 'local',
+      options: {
+        translations: {
+          button: {
+            buttonText: '搜索文档',
+            buttonAriaLabel: '搜索文档'
+          },
+          modal: {
+            noResultsText: '无法找到相关结果',
+            resetButtonTitle: '清除查询条件',
+            footer: {
+              selectText: '选择',
+              navigateText: '切换',
+              closeText: '关闭',
+            }
+          }
+        }
+      },
     },
   }
 })
