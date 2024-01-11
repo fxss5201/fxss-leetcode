@@ -2,8 +2,6 @@ import { expect, test } from 'vitest'
 import { twoSum, twoSumObj } from '../src/twoSum/typescript.ts'
 import { twoSum as twoSumJs, twoSumObj as twoSumObjJs } from '../src/twoSum/javascript.js'
 
-const versionList = ['0.1.1', '2.3.3', '0.302.1', '4.2', '4.3.5', '4.3.4.5']
-
 test(`twoSum([2, 7, 11, 15], 9) toEqual [0, 1]`, () => {
   expect(twoSum([2, 7, 11, 15], 9)).toEqual([0, 1])
 })
