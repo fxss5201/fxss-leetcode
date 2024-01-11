@@ -1,10 +1,11 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
 import Giscus from '@giscus/vue'
-import { useData } from 'vitepress'
+import { useData, useRoute } from 'vitepress'
 
 const { Layout } = DefaultTheme
 const { isDark } = useData()
+const route = useRoute()
 </script>
 
 <template>
@@ -12,7 +13,7 @@ const { isDark } = useData()
     <template #doc-footer-before>
       <div style="margin-bottom: 10px;">
         <Giscus
-          id="comments"
+          :key="route.path"
           repo="fxss5201/fxss-leetcode-comment"
           repoId="R_kgDOLDXsjA"
           category="Announcements"
