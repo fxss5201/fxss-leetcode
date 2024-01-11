@@ -45,6 +45,7 @@ export default defineConfig({
         items: [
           { text: '语义化版本倒序', link: '/list/versionSort' },
           { text: '1. 两数之和', link: '/list/twoSum' },
+          { text: '2. 两数相加', link: '/list/addTwoNumbers' },
           { text: '2696. 删除子串后的字符串最小长度', link: '/list/minimumStringLengthAfterRemovingSubstrings' }
         ]
       },
