@@ -59,6 +59,7 @@ export default defineConfig({
           { text: '语义化版本倒序', link: '/list/versionSort' },
           { text: '1. 两数之和', link: '/list/twoSum' },
           { text: '2. 两数相加', link: '/list/addTwoNumbers' },
+          { text: '3. 无重复字符的最长子串', link: '/list/longestSubstringWithoutRepeatingCharacters' },
           { text: '2085. 统计出现过一次的公共字符串', link: '/list/countCommonWordsWithOneOccurrence' },
           { text: '2645. 构造有效字符串的最少插入数', link: '/list/addMinimum' },
           { text: '2696. 删除子串后的字符串最小长度', link: '/list/minimumStringLengthAfterRemovingSubstrings' }
