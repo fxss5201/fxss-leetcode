@@ -17,7 +17,7 @@ export function twoSum(nums: number[], target: number): number[] {
 // 遍历一遍，将值和索引保存在对象中
 export function twoSumObj(nums: number[], target: number): number[] {
   let result: number[] = []
-  const resObj = {}
+  const resObj: { [propName: string]: number; } = {}
   for(let i = 0, len = nums.length; i < len; i++) {
     if (nums[i] in resObj) {
       result = [resObj[nums[i]], i]
