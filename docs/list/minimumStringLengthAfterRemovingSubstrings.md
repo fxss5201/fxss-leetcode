@@ -38,8 +38,8 @@
 
 ::: code-group
 
-<<< ../../src/minimumStringLengthAfterRemovingSubstrings/javascript.js{javascript} [javascript]
+<<< ../../src/leetcode/minimumStringLengthAfterRemovingSubstrings/javascript.js{javascript} [javascript]
 
-<<< ../../src/minimumStringLengthAfterRemovingSubstrings/typescript.ts{typescript} [typescript]
+<<< ../../src/leetcode/minimumStringLengthAfterRemovingSubstrings/typescript.ts{typescript} [typescript]
 
 :::

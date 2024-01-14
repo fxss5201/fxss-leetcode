@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
-import { lengthOfLongestSubstring } from '../src/longestSubstringWithoutRepeatingCharacters/typescript.ts'
-import { lengthOfLongestSubstring as lengthOfLongestSubstringJs } from '../src/longestSubstringWithoutRepeatingCharacters/javascript.js'
+import { lengthOfLongestSubstring } from '../src/leetcode/longestSubstringWithoutRepeatingCharacters/typescript.ts'
+import { lengthOfLongestSubstring as lengthOfLongestSubstringJs } from '../src/leetcode/longestSubstringWithoutRepeatingCharacters/javascript.js'
 
 test(`lengthOfLongestSubstring('abcabcbb') toBe 3`, () => {
   expect(lengthOfLongestSubstring('abcabcbb')).toBe(3)

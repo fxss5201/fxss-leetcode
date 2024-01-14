@@ -34,8 +34,8 @@
 
 ::: code-group
 
-<<< ../../src/addTwoNumbers/javascript.js{javascript} [javascript]
+<<< ../../src/leetcode/addTwoNumbers/javascript.js{javascript} [javascript]
 
-<<< ../../src/addTwoNumbers/typescript.ts{typescript} [typescript]
+<<< ../../src/leetcode/addTwoNumbers/typescript.ts{typescript} [typescript]
 
 :::

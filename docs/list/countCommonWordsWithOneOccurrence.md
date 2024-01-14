@@ -49,8 +49,8 @@
 
 ::: code-group
 
-<<< ../../src/countCommonWordsWithOneOccurrence/javascript.js{javascript} [javascript]
+<<< ../../src/leetcode/countCommonWordsWithOneOccurrence/javascript.js{javascript} [javascript]
 
-<<< ../../src/countCommonWordsWithOneOccurrence/typescript.ts{typescript} [typescript]
+<<< ../../src/leetcode/countCommonWordsWithOneOccurrence/typescript.ts{typescript} [typescript]
 
 :::

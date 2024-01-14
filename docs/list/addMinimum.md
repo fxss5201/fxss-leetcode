@@ -44,8 +44,8 @@
 
 ::: code-group
 
-<<< ../../src/addMinimum/javascript.js{javascript} [javascript]
+<<< ../../src/leetcode/addMinimum/javascript.js{javascript} [javascript]
 
-<<< ../../src/addMinimum/typescript.ts{typescript} [typescript]
+<<< ../../src/leetcode/addMinimum/typescript.ts{typescript} [typescript]
 
 :::

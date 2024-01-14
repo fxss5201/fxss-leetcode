@@ -2,15 +2,19 @@
 // https://leetcode.cn/problems/count-common-words-with-one-occurrence/description/
 
 export function countWords (words1: string[], words2: string[]): number {
-  const arrayToObject = (arr: string[]): object => {
-    const res = {}
+  interface ObjNumber { 
+    [propName: string]: number;
+  }
+
+  const arrayToObject = (arr: string[]): ObjNumber => {
+    const res: ObjNumber = {}
     arr.forEach(element => {
       res[element] = (res[element] || 0) + 1
     });
     return res
   }
-  const wObj1 = arrayToObject(words1)
-  const wObj2 = arrayToObject(words2)
+  const wObj1: ObjNumber = arrayToObject(words1)
+  const wObj2: ObjNumber = arrayToObject(words2)
   const minLength = Math.min(words1.length, words2.length)
   const resArr = words1.length === minLength ? words1 : words2
   let res = 0
@@ -25,7 +29,7 @@ export function countWords (words1: string[], words2: string[]): number {
 // map实现
 export function countWordsMap (words1: string[], words2: string[]): number {
   const arrayToMap = (arr: string[]): Map<string, number> => {
-    const res = new Map()
+    const res: Map<string, number> = new Map()
     arr.forEach(element => {
       res.set(element, (res.get(element) || 0) + 1)
     });

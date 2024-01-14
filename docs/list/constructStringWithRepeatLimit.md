@@ -60,8 +60,8 @@
 
 ::: code-group
 
-<<< ../../src/constructStringWithRepeatLimit/javascript.js{javascript} [javascript]
+<<< ../../src/leetcode/constructStringWithRepeatLimit/javascript.js{javascript} [javascript]
 
-<<< ../../src/constructStringWithRepeatLimit/typescript.ts{typescript} [typescript]
+<<< ../../src/leetcode/constructStringWithRepeatLimit/typescript.ts{typescript} [typescript]
 
 :::

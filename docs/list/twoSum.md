@@ -34,8 +34,8 @@
 
 ::: code-group
 
-<<< ../../src/twoSum/javascript.js{javascript} [javascript]
+<<< ../../src/leetcode/twoSum/javascript.js{javascript} [javascript]
 
-<<< ../../src/twoSum/typescript.ts{typescript} [typescript]
+<<< ../../src/leetcode/twoSum/typescript.ts{typescript} [typescript]
 
 :::

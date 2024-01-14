@@ -42,8 +42,8 @@
 
 ::: code-group
 
-<<< ../../src/longestSubstringWithoutRepeatingCharacters/javascript.js{javascript} [javascript]
+<<< ../../src/leetcode/longestSubstringWithoutRepeatingCharacters/javascript.js{javascript} [javascript]
 
-<<< ../../src/longestSubstringWithoutRepeatingCharacters/typescript.ts{typescript} [typescript]
+<<< ../../src/leetcode/longestSubstringWithoutRepeatingCharacters/typescript.ts{typescript} [typescript]
 
 :::
