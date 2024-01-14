@@ -52,9 +52,8 @@
 
 ## 提示
 
-> 1 <= repeatLimit <= s.length <= 105
->
-> s 由小写英文字母组成
+1. 1 <= repeatLimit <= s.length <= 105
+2. s 由小写英文字母组成
 
 ## 代码
 

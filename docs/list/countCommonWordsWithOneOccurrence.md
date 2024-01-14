@@ -39,11 +39,9 @@
 
 ## 提示
 
-> 1 <= words1.length, words2.length <= 1000
->
-> 1 <= words1[i].length, words2[j].length <= 30
->
-> words1[i] 和 words2[j] 都只包含小写英文字母。
+1. 1 <= words1.length, words2.length <= 1000
+2. 1 <= words1[i].length, words2[j].length <= 30
+3. words1[i] 和 words2[j] 都只包含小写英文字母。
 
 ## 代码
 

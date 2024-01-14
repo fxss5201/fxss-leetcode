@@ -60,6 +60,7 @@ export default defineConfig({
           { text: '1. 两数之和', link: '/list/twoSum' },
           { text: '2. 两数相加', link: '/list/addTwoNumbers' },
           { text: '3. 无重复字符的最长子串', link: '/list/longestSubstringWithoutRepeatingCharacters' },
+          { text: '83. 删除排序链表中的重复元素', link: '/list/removeDuplicatesFromSortedList' },
           { text: '2085. 统计出现过一次的公共字符串', link: '/list/countCommonWordsWithOneOccurrence' },
           { text: '2182. 构造限制重复的字符串', link: '/list/constructStringWithRepeatLimit' },
           { text: '2645. 构造有效字符串的最少插入数', link: '/list/addMinimum' },
