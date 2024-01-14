@@ -5,5 +5,6 @@
 3. [2. 两数相加](./addTwoNumbers)
 4. [3. 无重复字符的最长子串](./longestSubstringWithoutRepeatingCharacters)
 5. [2085. 统计出现过一次的公共字符串](./countCommonWordsWithOneOccurrence)
-6. [2645. 构造有效字符串的最少插入数](./addMinimum)
-7. [2696. 删除子串后的字符串最小长度](./minimumStringLengthAfterRemovingSubstrings)
+6. [2182. 构造限制重复的字符串](./constructStringWithRepeatLimit)
+7. [2645. 构造有效字符串的最少插入数](./addMinimum)
+8. [2696. 删除子串后的字符串最小长度](./minimumStringLengthAfterRemovingSubstrings)
