@@ -48,23 +48,29 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
-      { text: '列表', link: '/list/' },
+      { text: 'leetcode', link: '/leetcode/' },
+      { text: '其他', link: '/other/' },
       { text: '泛积木-低代码', link: 'https://www.fxss.work/' },
     ],
 
     sidebar: [
       {
-        text: '列表',
+        text: 'leetcode',
         items: [
-          { text: '语义化版本倒序', link: '/list/versionSort' },
-          { text: '1. 两数之和', link: '/list/twoSum' },
-          { text: '2. 两数相加', link: '/list/addTwoNumbers' },
-          { text: '3. 无重复字符的最长子串', link: '/list/longestSubstringWithoutRepeatingCharacters' },
-          { text: '83. 删除排序链表中的重复元素', link: '/list/removeDuplicatesFromSortedList' },
-          { text: '2085. 统计出现过一次的公共字符串', link: '/list/countCommonWordsWithOneOccurrence' },
-          { text: '2182. 构造限制重复的字符串', link: '/list/constructStringWithRepeatLimit' },
-          { text: '2645. 构造有效字符串的最少插入数', link: '/list/addMinimum' },
-          { text: '2696. 删除子串后的字符串最小长度', link: '/list/minimumStringLengthAfterRemovingSubstrings' }
+          { text: '1. 两数之和', link: '/leetcode/twoSum' },
+          { text: '2. 两数相加', link: '/leetcode/addTwoNumbers' },
+          { text: '3. 无重复字符的最长子串', link: '/leetcode/longestSubstringWithoutRepeatingCharacters' },
+          { text: '83. 删除排序链表中的重复元素', link: '/leetcode/removeDuplicatesFromSortedList' },
+          { text: '2085. 统计出现过一次的公共字符串', link: '/leetcode/countCommonWordsWithOneOccurrence' },
+          { text: '2182. 构造限制重复的字符串', link: '/leetcode/constructStringWithRepeatLimit' },
+          { text: '2645. 构造有效字符串的最少插入数', link: '/leetcode/addMinimum' },
+          { text: '2696. 删除子串后的字符串最小长度', link: '/leetcode/minimumStringLengthAfterRemovingSubstrings' },
+        ]
+      },
+      {
+        text: 'other',
+        items: [
+          { text: '语义化版本倒序', link: '/other/versionSort' },
         ]
       },
     ],
