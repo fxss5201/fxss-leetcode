@@ -1,7 +1,7 @@
 // 输入：s = "PAYPALISHIRING", numRows = 3
 // 输出："PAHNAPLSIIGYIR"
 
-export function convert(s: string, numRows: number):string {
+export function convert(s: string, numRows: number): string {
   if (numRows === 1 || numRows > s.length) return s
   const resObj: { [key: string]: string } = {}
   let rowIndex = 0
