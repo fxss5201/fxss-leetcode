@@ -62,6 +62,7 @@ export default defineConfig({
           { text: '3. 无重复字符的最长子串', link: '/leetcode/longestSubstringWithoutRepeatingCharacters' },
           { text: '5. 最长回文子串', link: '/leetcode/longestPalindromicSubstring' },
           { text: '6. Z 字形变换', link: '/leetcode/zigzagConversion' },
+          { text: '7. 整数反转', link: '/leetcode/reverseInteger' },
           { text: '83. 删除排序链表中的重复元素', link: '/leetcode/removeDuplicatesFromSortedList' },
           { text: '2085. 统计出现过一次的公共字符串', link: '/leetcode/countCommonWordsWithOneOccurrence' },
           { text: '2182. 构造限制重复的字符串', link: '/leetcode/constructStringWithRepeatLimit' },
