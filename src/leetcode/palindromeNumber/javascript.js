@@ -1,3 +1,6 @@
+// 输入：x = 121
+// 输出：true
+
 export function isPalindrome(x) {
   if (x < 0) return false
   let num = x
