@@ -32,7 +32,7 @@ export function ${name} () {
     )
 
     await writeFile(
-      path.resolve(filePath, 'javascript.ts'),
+      path.resolve(filePath, 'javascript.js'),
       defaultCode
     )
 
