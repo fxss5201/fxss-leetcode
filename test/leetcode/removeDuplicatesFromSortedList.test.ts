@@ -1,20 +1,8 @@
 import { expect, test } from 'vitest'
-import { ListNode, deleteDuplicates } from '../../src/leetcode/removeDuplicatesFromSortedList/typescript.ts'
-import { ListNode as ListNodeJs, deleteDuplicates as deleteDuplicatesJs } from '../../src/leetcode/removeDuplicatesFromSortedList/javascript.js'
-
-function getListNode(arr: number[]): ListNode | null {
-  let res: ListNode | null = null
-  let middle: ListNode | null = null
-  arr.map(item => {
-    if (!res) {
-      res = middle = new ListNode(item)
-    } else {
-      (middle as ListNode).next = new ListNode(item)
-      middle = (middle as ListNode).next
-    }
-  })
-  return res
-}
+import { getListNode } from "../../src/utils"
+import { deleteDuplicates } from '../../src/leetcode/removeDuplicatesFromSortedList/typescript.ts'
+import { getListNodeJs } from "../../src/utilsJs"
+import { deleteDuplicates as deleteDuplicatesJs } from '../../src/leetcode/removeDuplicatesFromSortedList/javascript.js'
 
 const a1 = [1, 1, 2]
 const a2 = [1, 2]
@@ -33,20 +21,6 @@ const aL4 = getListNode(a4)
 test(`deleteDuplicates(aL3) toEqual aL4`, () => {
   expect(deleteDuplicates(aL3)).toEqual(aL4)
 })
-
-function getListNodeJs(arr: number[]): ListNode | null {
-  let res: ListNode | null = null
-  let middle: ListNode | null = null
-  arr.map(item => {
-    if (!res) {
-      res = middle = new ListNodeJs(item)
-    } else {
-      (middle as ListNode).next = new ListNodeJs(item)
-      middle = (middle as ListNode).next
-    }
-  })
-  return res
-}
 
 const a5 = [1, 1, 2]
 const a6 = [1, 2]

@@ -1,14 +1,7 @@
 // 2. 两数相加
 // https://leetcode.cn/problems/add-two-numbers/
 
-export class ListNode {
-  val: number
-  next: ListNode | null
-  constructor(val?: number, next?: ListNode | null) {
-    this.val = (val === undefined ? 0 : val)
-    this.next = (next === undefined ? null : next)
-  }
-}
+import { ListNode } from "../../utils"
 
 export function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
   let result: ListNode | null = null

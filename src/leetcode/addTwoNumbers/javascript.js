@@ -1,10 +1,7 @@
 // 2. 两数相加
 // https://leetcode.cn/problems/add-two-numbers/
 
-export function ListNode(val, next) {
-  this.val = (val === undefined ? 0 : val)
-  this.next = (next === undefined ? null : next)
-}
+import { ListNodeJs } from "../../utilsJs"
 
 export function addTwoNumbers(l1, l2) {
   let result = null
@@ -15,9 +12,9 @@ export function addTwoNumbers(l1, l2) {
     const l2Val = l2 ? l2.val : 0
     const sum = l1Val + l2Val + advanced
     if (!result) {
-      result = middleVal = new ListNode((sum) % 10)
+      result = middleVal = new ListNodeJs((sum) % 10)
     } else {
-      middleVal.next = new ListNode((sum) % 10)
+      middleVal.next = new ListNodeJs((sum) % 10)
       middleVal = middleVal.next
     }
     advanced = Math.floor((sum) / 10)
@@ -29,7 +26,7 @@ export function addTwoNumbers(l1, l2) {
     }
   }
   if (advanced > 0) {
-    middleVal.next = new ListNode(advanced)
+    middleVal.next = new ListNodeJs(advanced)
   }
   return result
 };

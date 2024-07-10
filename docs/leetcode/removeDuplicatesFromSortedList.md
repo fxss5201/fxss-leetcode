@@ -28,6 +28,14 @@
 
 ::: code-group
 
+<<< ../../src/utilsJs/ListNode.js#ListNodeJs{javascript} [javascript]
+
+<<< ../../src/utils/ListNode.ts#ListNode{typescript} [typescript]
+
+:::
+
+::: code-group
+
 <<< ../../src/leetcode/removeDuplicatesFromSortedList/javascript.js{javascript} [javascript]
 
 <<< ../../src/leetcode/removeDuplicatesFromSortedList/typescript.ts{typescript} [typescript]

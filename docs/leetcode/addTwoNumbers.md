@@ -34,6 +34,14 @@
 
 ::: code-group
 
+<<< ../../src/utilsJs/ListNode.js#ListNodeJs{javascript} [javascript]
+
+<<< ../../src/utils/ListNode.ts#ListNode{typescript} [typescript]
+
+:::
+
+::: code-group
+
 <<< ../../src/leetcode/addTwoNumbers/javascript.js{javascript} [javascript]
 
 <<< ../../src/leetcode/addTwoNumbers/typescript.ts{typescript} [typescript]

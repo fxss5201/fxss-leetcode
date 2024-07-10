@@ -1,6 +1,8 @@
 import { expect, test } from 'vitest'
-import { ListNode, addTwoNumbers } from '../../src/leetcode/addTwoNumbers/typescript.ts'
-import { ListNode as ListNodeJs, addTwoNumbers as addTwoNumbersJs } from '../../src/leetcode/addTwoNumbers/javascript.js'
+import { getListNode } from "../../src/utils"
+import { addTwoNumbers } from '../../src/leetcode/addTwoNumbers/typescript.ts'
+import { getListNodeJs } from "../../src/utilsJs"
+import { addTwoNumbers as addTwoNumbersJs } from '../../src/leetcode/addTwoNumbers/javascript.js'
 
 const l1Array = [2, 4, 3]
 const l2Array = [5, 6, 4]
@@ -9,34 +11,6 @@ const l3Array = [7, 0, 8]
 const l4Array = [2, 4, 3]
 const l5Array = [5, 6, 4]
 const l6Array = [7, 0, 8]
-
-function getListNode(arr: number[]): ListNode | null {
-  let res: ListNode | null = null
-  let middle: ListNode | null = null
-  arr.map(item => {
-    if (!res) {
-      res = middle = new ListNode(item)
-    } else {
-      (middle as ListNode).next = new ListNode(item)
-      middle = (middle as ListNode).next
-    }
-  })
-  return res
-}
-
-function getListNodeJs(arr: number[]): ListNode | null {
-  let res: ListNode | null = null
-  let middle: ListNode | null = null
-  arr.map(item => {
-    if (!res) {
-      res = middle = new ListNodeJs(item)
-    } else {
-      (middle as ListNode).next = new ListNodeJs(item)
-      middle = (middle as ListNode).next
-    }
-  })
-  return res
-}
 
 const l1 = getListNode(l1Array)
 const l2 = getListNode(l2Array)
