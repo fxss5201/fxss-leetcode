@@ -11,12 +11,15 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
     "test": "vitest --ui",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "add": "node scripts/index.js"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
     "@vitest/coverage-v8": "^1.2.0",
     "@vitest/ui": "^1.2.0",
+    "commander": "^12.1.0",
+    "consola": "^3.2.3",
     "typescript": "^5.2.2",
     "vite": "^5.0.8",
     "vitepress": "^1.0.0-rc.36",
