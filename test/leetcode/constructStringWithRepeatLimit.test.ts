@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
-import { repeatLimitedString } from '../src/leetcode/constructStringWithRepeatLimit/typescript.ts'
-import { repeatLimitedString as repeatLimitedStringJs } from '../src/leetcode/constructStringWithRepeatLimit/javascript.js'
+import { repeatLimitedString } from '../../src/leetcode/constructStringWithRepeatLimit/typescript.ts'
+import { repeatLimitedString as repeatLimitedStringJs } from '../../src/leetcode/constructStringWithRepeatLimit/javascript.js'
 
 test(`repeatLimitedString('cczazcc', 3) toBe 'zzcccac'`, () => {
   expect(repeatLimitedString('cczazcc', 3)).toBe('zzcccac')

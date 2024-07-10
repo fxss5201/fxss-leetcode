@@ -3,12 +3,12 @@ import {
   minimumStringLengthAfterRemovingABOrCDSubstrings,
   minimumStringLengthAfterRemovingSubstrings,
   minimumStringLengthAfterRemovingSubstringsStack
-} from '../src/leetcode/minimumStringLengthAfterRemovingSubstrings/typescript.js'
+} from '../../src/leetcode/minimumStringLengthAfterRemovingSubstrings/typescript.js'
 import {
   minimumStringLengthAfterRemovingABOrCDSubstrings as minimumStringLengthAfterRemovingABOrCDSubstringsJs,
   minimumStringLengthAfterRemovingSubstrings as minimumStringLengthAfterRemovingSubstringsJs,
   minimumStringLengthAfterRemovingSubstringsStack as minimumStringLengthAfterRemovingSubstringsStackJs
-} from '../src/leetcode/minimumStringLengthAfterRemovingSubstrings/javascript.js'
+} from '../../src/leetcode/minimumStringLengthAfterRemovingSubstrings/javascript.js'
 
 // 只去除 AB 或 CD
 test(`'ABFCACDB' toBe 2`, () => {

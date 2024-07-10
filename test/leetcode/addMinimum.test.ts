@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
-import { addMinimum1, addMinimum2, addMinimum3 } from '../src/leetcode/addMinimum/typescript.ts'
-import { addMinimum1 as addMinimum1Js, addMinimum2 as addMinimum2Js, addMinimum3 as addMinimum3Js } from '../src/leetcode/addMinimum/javascript.js'
+import { addMinimum1, addMinimum2, addMinimum3 } from '../../src/leetcode/addMinimum/typescript.ts'
+import { addMinimum1 as addMinimum1Js, addMinimum2 as addMinimum2Js, addMinimum3 as addMinimum3Js } from '../../src/leetcode/addMinimum/javascript.js'
 
 test(`addMinimum1('a') toBe 2`, () => {
   expect(addMinimum1('a')).toBe(2)

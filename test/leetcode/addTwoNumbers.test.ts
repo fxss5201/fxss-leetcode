@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
-import { ListNode, addTwoNumbers } from '../src/leetcode/addTwoNumbers/typescript.ts'
-import { ListNode as ListNodeJs, addTwoNumbers as addTwoNumbersJs } from '../src/leetcode/addTwoNumbers/javascript.js'
+import { ListNode, addTwoNumbers } from '../../src/leetcode/addTwoNumbers/typescript.ts'
+import { ListNode as ListNodeJs, addTwoNumbers as addTwoNumbersJs } from '../../src/leetcode/addTwoNumbers/javascript.js'
 
 const l1Array = [2, 4, 3]
 const l2Array = [5, 6, 4]

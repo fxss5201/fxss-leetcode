@@ -12,8 +12,8 @@
 
 ::: code-group
 
-<<< ../../src/leetcode/versionSort/javascript.js{javascript} [javascript]
+<<< ../../src/other/versionSort/javascript.js{javascript} [javascript]
 
-<<< ../../src/leetcode/versionSort/typescript.ts{typescript} [typescript]
+<<< ../../src/other/versionSort/typescript.ts{typescript} [typescript]
 
 :::

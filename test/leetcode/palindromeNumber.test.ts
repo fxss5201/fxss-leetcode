@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { isPalindrome } from '../src/leetcode/palindromeNumber/typescript.ts'
+import { isPalindrome } from '../../src/leetcode/palindromeNumber/typescript.ts'
 
 
 test(`121`, () => {

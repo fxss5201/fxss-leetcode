@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { intToRoman } from '../src/leetcode/integerToRoman/typescript.ts'
+import { intToRoman } from '../../src/leetcode/integerToRoman/typescript.ts'
 
 
 test(`58`, () => {

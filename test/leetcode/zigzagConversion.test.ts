@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { convert } from '../src/leetcode/zigzagConversion/typescript.ts'
+import { convert } from '../../src/leetcode/zigzagConversion/typescript.ts'
 
 
 test(`PAYPALISHIRING`, () => {

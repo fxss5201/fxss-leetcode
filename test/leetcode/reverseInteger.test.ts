@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest'
-import { reverse } from '../src/leetcode/reverseInteger/typescript.ts'
+import { reverse } from '../../src/leetcode/reverseInteger/typescript.ts'
 
 
 test(`123`, () => {

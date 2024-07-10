@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
-import { ListNode, deleteDuplicates } from '../src/leetcode/removeDuplicatesFromSortedList/typescript.ts'
-import { ListNode as ListNodeJs, deleteDuplicates as deleteDuplicatesJs } from '../src/leetcode/removeDuplicatesFromSortedList/javascript.js'
+import { ListNode, deleteDuplicates } from '../../src/leetcode/removeDuplicatesFromSortedList/typescript.ts'
+import { ListNode as ListNodeJs, deleteDuplicates as deleteDuplicatesJs } from '../../src/leetcode/removeDuplicatesFromSortedList/javascript.js'
 
 function getListNode(arr: number[]): ListNode | null {
   let res: ListNode | null = null

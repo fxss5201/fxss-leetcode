@@ -32,8 +32,8 @@ n个数值是否可以组成n边形。
 
 ::: code-group
 
-<<< ../../src/leetcode/nNumberCanNPolygon/javascript.js{javascript} [javascript]
+<<< ../../src/other/nNumberCanNPolygon/javascript.js{javascript} [javascript]
 
-<<< ../../src/leetcode/nNumberCanNPolygon/typescript.ts{typescript} [typescript]
+<<< ../../src/other/nNumberCanNPolygon/typescript.ts{typescript} [typescript]
 
 :::

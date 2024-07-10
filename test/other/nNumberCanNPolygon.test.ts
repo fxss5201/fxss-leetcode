@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
-import { nNumberCanNPolygon } from '../src/leetcode/nNumberCanNPolygon/typescript.ts'
-import { nNumberCanNPolygon as nNumberCanNPolygonJs } from '../src/leetcode/nNumberCanNPolygon/javascript.js'
+import { nNumberCanNPolygon } from '../../src/other/nNumberCanNPolygon/typescript.ts'
+import { nNumberCanNPolygon as nNumberCanNPolygonJs } from '../../src/other/nNumberCanNPolygon/javascript.js'
 
 test(`[1, 1, 2] toBe false`, () => {
   expect(nNumberCanNPolygon([1, 1, 2])).toBe(false)

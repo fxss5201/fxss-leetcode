@@ -1,6 +1,6 @@
 import { expect, test } from 'vitest'
-import { countWords, countWordsMap } from '../src/leetcode/countCommonWordsWithOneOccurrence/typescript.ts'
-import { countWords as countWordsJs, countWordsMap as countWordsMapJs } from '../src/leetcode/countCommonWordsWithOneOccurrence/javascript.js'
+import { countWords, countWordsMap } from '../../src/leetcode/countCommonWordsWithOneOccurrence/typescript.ts'
+import { countWords as countWordsJs, countWordsMap as countWordsMapJs } from '../../src/leetcode/countCommonWordsWithOneOccurrence/javascript.js'
 
 const words1 = ["leetcode","is","amazing","as","is"]
 const words2 = ["amazing","leetcode","is"]
