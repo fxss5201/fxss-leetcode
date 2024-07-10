@@ -68,6 +68,7 @@ export default defineConfig({
           { text: '12. 整数转罗马数字', link: '/leetcode/integerToRoman' },
           { text: '13. 罗马数字转整数', link: '/leetcode/romanToInteger' },
           { text: '14. 最长公共前缀', link: '/leetcode/longestCommonPrefix' },
+          { text: '15. 三数之和', link: '/leetcode/threeSum' },
           { text: '83. 删除排序链表中的重复元素', link: '/leetcode/removeDuplicatesFromSortedList' },
           { text: '2085. 统计出现过一次的公共字符串', link: '/leetcode/countCommonWordsWithOneOccurrence' },
           { text: '2182. 构造限制重复的字符串', link: '/leetcode/constructStringWithRepeatLimit' },
