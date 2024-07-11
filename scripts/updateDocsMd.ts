@@ -20,7 +20,6 @@ async function updateDocsMd (handle: string, name: string, type: string, title: 
     const index = items.findIndex(x => x.link === rmLink)
     items.splice(index, 1)
   }
-
   
   fileMd = arrayToFileMd(items, type)
   await writeFile(
@@ -30,9 +29,9 @@ async function updateDocsMd (handle: string, name: string, type: string, title: 
 }
 
 function fileMdToArray (fileMd: string): ItemType[] {
-  const fileLine = fileMd.split('\r\n').filter(x => x.startsWith('- '))
+  const fileLine = fileMd.split('\n').filter(x => x.startsWith('- '))
   return fileLine.map(line => {
-    const res = /^\-\s\[(.*)\]\(\.\/(.*)\)$/gi.exec(line)
+    const res = /^\-\s\[(.*)\]\(\.\/(.*)\)/gi.exec(line)
     return {
       text: res ? res[1] : '',
       link: res ? res[2] : '',
@@ -47,7 +46,7 @@ function arrayToFileMd (list: ItemType[], type: string): string {
   })
   return `# ${type === 'other' ? '其他' : type}
 
-${fileLine.join('\r\n')}
+${fileLine.join('\n')}
 `
 }
 
