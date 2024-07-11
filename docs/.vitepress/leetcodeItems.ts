@@ -48,6 +48,10 @@ const leetcodeItems = [
     "link": "/leetcode/threeSum"
   },
   {
+    "text": "16. 最接近的三数之和",
+    "link": "/leetcode/threeSumClosest"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
