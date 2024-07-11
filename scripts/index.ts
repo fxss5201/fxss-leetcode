@@ -17,7 +17,7 @@ async function main () {
     initial: 'leetcode',
   })
 
-  const filePath = path.resolve(path.resolve(), 'src', codeType, name)
+  const filePath = path.resolve(path.resolve(), 'src', codeType, name as string)
   try {
     await access(filePath, constants.F_OK)
     consola.error('代码段已存在')
