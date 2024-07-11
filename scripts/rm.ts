@@ -1,5 +1,5 @@
 import { consola } from 'consola'
-import { access, constants, rm } from 'fs/promises'
+import { access, constants, unlink, rmdir } from 'fs/promises'
 import path from 'path'
 import updateDocsConfig from './updateDocsConfig'
 import updateDocsMd from './updateDocsMd'
@@ -29,15 +29,15 @@ async function main () {
   try {
     await access(filePath, constants.F_OK)
 
-    await rm(path.resolve(filePath, 'typescript.ts'))
-    await rm(path.resolve(filePath, 'javascript.js'))
-    await rm(filePath)
+    await unlink(path.resolve(filePath, 'typescript.ts'))
+    await unlink(path.resolve(filePath, 'javascript.js'))
+    await rmdir(filePath)
 
     const mdPath = path.resolve(path.resolve(), 'docs', codeType)
-    await rm(path.resolve(mdPath, `${codeName}.md`))
+    await unlink(path.resolve(mdPath, `${codeName}.md`))
 
     const testPath = path.resolve(path.resolve(), 'test', codeType)
-    await rm(path.resolve(testPath, `${codeName}.test.ts`))
+    await unlink(path.resolve(testPath, `${codeName}.test.ts`))
 
     await updateDocsConfig('rm', codeName, codeType)
     await updateDocsMd('rm', codeName, codeType)

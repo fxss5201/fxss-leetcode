@@ -44,7 +44,7 @@ function arrayToFileMd (list: ItemType[], type: string): string {
   list.forEach(item => {
     fileLine.push(`- [${item.text}](./${item.link})`)
   })
-  return `# ${type}
+  return `# ${type === 'other' ? '其他' : type}
   
 ${fileLine.join('\r\n')}
 `
