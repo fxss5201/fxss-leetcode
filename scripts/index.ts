@@ -1,9 +1,11 @@
 import { consola } from 'consola'
 import { access, writeFile, constants, mkdir } from 'fs/promises'
 import path from 'path'
-import getDefaultCode from './defaultCode.js'
-import getDefaultMd from './defaultMd.js'
-import getDefaultTest from './defaultTest.js'
+import getDefaultCode from './defaultCode'
+import getDefaultMd from './defaultMd'
+import getDefaultTest from './defaultTest'
+import updateDocsConfig from './updateDocsConfig'
+import updateDocsMd from './updateDocsMd'
 
 async function main () {
   const codeNamePrompt = '请输入代码段名称（字符串key，用于生产文件名，建议使用小驼峰字符串）：'
@@ -75,6 +77,9 @@ async function main () {
       path.resolve(testPath, `${codeName}.test.ts`),
       defaultTest
     )
+
+    await updateDocsConfig(codeName, codeType, codeTitle)
+    await updateDocsMd(codeName, codeType, codeTitle)
 
     consola.success(`代码段 ${codeName} 相关文件已创建成功`)
   }
