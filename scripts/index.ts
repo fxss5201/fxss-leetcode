@@ -6,9 +6,29 @@ import getDefaultMd from './defaultMd.js'
 import getDefaultTest from './defaultTest.js'
 
 async function main () {
-  const name = await consola.prompt('请输入代码段名称：')
+  const codeNamePrompt = '请输入代码段名称（字符串key，用于生产文件名，建议使用小驼峰字符串）：'
+  let codeName = await consola.prompt(codeNamePrompt, {
+    type: 'text'
+  })
+  while (!codeName) {
+    consola.error('请输入代码段名称')
+    codeName = await consola.prompt(codeNamePrompt, {
+      type: 'text'
+    })
+  }
 
-  const codeType = await consola.prompt('请选择代码段归属：', {
+  const codeTitlePrompt = '请输入代码段标题（中文名称，用于菜单展示）：'
+  let codeTitle = await consola.prompt(codeTitlePrompt, {
+    type: 'text'
+  })
+  while (!codeTitle) {
+    consola.error('请输入代码段标题')
+    codeTitle = await consola.prompt(codeTitlePrompt, {
+      type: 'text'
+    })
+  }
+
+  const codeType = await consola.prompt('请选择代码段类型：', {
     type: 'select',
     options: [
       'leetcode',
@@ -17,12 +37,19 @@ async function main () {
     initial: 'leetcode',
   })
 
-  const filePath = path.resolve(path.resolve(), 'src', codeType, name as string)
+  let codeUrl = ''
+  if (codeType === 'leetcode') {
+    codeUrl = await consola.prompt('请输入代码段 leetcode 链接：', {
+      type: 'text'
+    })
+  }
+
+  const filePath = path.resolve(path.resolve(), 'src', codeType, codeName)
   try {
     await access(filePath, constants.F_OK)
     consola.error('代码段已存在')
   } catch {
-    const defaultCode = getDefaultCode(name)
+    const defaultCode = getDefaultCode(codeName, codeTitle, codeUrl)
     await mkdir(filePath, { recursive: true })
     await writeFile(
       path.resolve(filePath, 'typescript.ts'),
@@ -34,22 +61,22 @@ async function main () {
     )
 
     const mdPath = path.resolve(path.resolve(), 'docs', codeType)
-    const defaultMd = getDefaultMd(name, codeType)
+    const defaultMd = getDefaultMd(codeName, codeType, codeTitle, codeUrl)
     await mkdir(mdPath, { recursive: true })
     await writeFile(
-      path.resolve(mdPath, `${name}.md`),
+      path.resolve(mdPath, `${codeName}.md`),
       defaultMd
     )
 
     const testPath = path.resolve(path.resolve(), 'test', codeType)
-    const defaultTest = getDefaultTest(name, codeType)
+    const defaultTest = getDefaultTest(codeName, codeType)
     await mkdir(testPath, { recursive: true })
     await writeFile(
-      path.resolve(testPath, `${name}.test.ts`),
+      path.resolve(testPath, `${codeName}.test.ts`),
       defaultTest
     )
 
-    consola.success(`代码段 ${name} 相关文件已创建成功`)
+    consola.success(`代码段 ${codeName} 相关文件已创建成功`)
   }
 }
 

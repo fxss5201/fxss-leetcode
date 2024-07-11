@@ -1,7 +1,7 @@
-function getDefaultMd (name, type) {
-  return `# 
+function getDefaultMd (name: string, type: string, title: string, url: string): string {
+  return `# ${title}
 
-[]()
+${type === 'leetcode' ? `[${title}](${url})` : title}
 
 ## 代码
 
