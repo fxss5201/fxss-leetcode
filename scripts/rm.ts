@@ -29,6 +29,16 @@ async function main () {
   try {
     await access(filePath, constants.F_OK)
 
+    const confirmed = await consola.prompt('删除之后不可恢复，是否确认删除？', {
+      type: "confirm",
+      initial: false,
+    })
+
+    if (!confirmed) {
+      consola.success(`已取消删除`)
+      return
+    }
+
     await unlink(path.resolve(filePath, 'typescript.ts'))
     await unlink(path.resolve(filePath, 'javascript.js'))
     await rmdir(filePath)
