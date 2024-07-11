@@ -78,8 +78,8 @@ async function main () {
       defaultTest
     )
 
-    await updateDocsConfig(codeName, codeType, codeTitle)
-    await updateDocsMd(codeName, codeType, codeTitle)
+    await updateDocsConfig('add', codeName, codeType, codeTitle)
+    await updateDocsMd('add', codeName, codeType, codeTitle)
 
     consola.success(`代码段 ${codeName} 相关文件已创建成功`)
   }

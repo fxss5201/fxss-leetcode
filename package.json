@@ -12,7 +12,8 @@
     "docs:preview": "vitepress preview docs",
     "test": "vitest --ui",
     "coverage": "vitest run --coverage",
-    "add": "tsx scripts/index.ts"
+    "add": "tsx scripts/add.ts",
+    "rm": "tsx scripts/rm.ts"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
