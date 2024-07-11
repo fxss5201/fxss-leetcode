@@ -42,7 +42,7 @@ async function main () {
     await updateDocsConfig('rm', codeName, codeType)
     await updateDocsMd('rm', codeName, codeType)
 
-    consola.success(`代码段 ${codeName} 相关文件已创建成功`)
+    consola.success(`代码段 ${codeName} 相关文件已删除成功`)
   } catch {
     consola.error('代码段不存在')
   }

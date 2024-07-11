@@ -7,7 +7,7 @@ async function updateDocsMd (handle: string, name: string, type: string, title: 
   let fileMd = await readFile(filePath, { encoding: 'utf-8' })
   
   let items: ItemType[] = fileMdToArray(fileMd)
-  
+
   if (handle === 'add') {
     const titleSortNum = parseInt(title)
     if (type === 'leetcode' && titleSortNum) {
@@ -20,6 +20,7 @@ async function updateDocsMd (handle: string, name: string, type: string, title: 
     const index = items.findIndex(x => x.link === rmLink)
     items.splice(index, 1)
   }
+
   
   fileMd = arrayToFileMd(items, type)
   await writeFile(
@@ -45,7 +46,7 @@ function arrayToFileMd (list: ItemType[], type: string): string {
     fileLine.push(`- [${item.text}](./${item.link})`)
   })
   return `# ${type === 'other' ? '其他' : type}
-  
+
 ${fileLine.join('\r\n')}
 `
 }
