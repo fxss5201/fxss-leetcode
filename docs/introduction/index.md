@@ -1,4 +1,4 @@
-# fxss-leetcode 算法
+# leetcode 算法集
 
 leetcode 算法集用于记录 leetcode 算法和平常想到的一些算法题，可以在 test 目录使用 vitest 测试，并以 vitepress 文档进行展示。
 

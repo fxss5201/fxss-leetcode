@@ -50,6 +50,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
+      { text: '项目简介', link: '/introduction/' },
       { text: 'leetcode', link: '/leetcode/' },
       { text: '其他', link: '/other/' },
       { text: '泛积木-低代码', link: 'https://www.fxss.work/' },
