@@ -62,19 +62,15 @@ async function main () {
       defaultCode
     )
 
-    const mdPath = path.resolve(path.resolve(), 'docs', codeType)
     const defaultMd = getDefaultMd(codeName, codeType, codeTitle, codeUrl)
-    await mkdir(mdPath, { recursive: true })
     await writeFile(
-      path.resolve(mdPath, `${codeName}.md`),
+      path.resolve(path.resolve(), 'docs', codeType, `${codeName}.md`),
       defaultMd
     )
 
-    const testPath = path.resolve(path.resolve(), 'test', codeType)
     const defaultTest = getDefaultTest(codeName, codeType)
-    await mkdir(testPath, { recursive: true })
     await writeFile(
-      path.resolve(testPath, `${codeName}.test.ts`),
+      path.resolve(path.resolve(), 'test', codeType, `${codeName}.test.ts`),
       defaultTest
     )
 
