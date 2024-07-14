@@ -52,6 +52,10 @@ const leetcodeItems = [
     "link": "/leetcode/threeSumClosest"
   },
   {
+    "text": "17. 电话号码的字母组合",
+    "link": "/leetcode/letterCombinations"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
