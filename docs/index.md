@@ -8,7 +8,12 @@ hero:
   tagline: leetcode 算法
   actions:
     - theme: brand
-      text: 快速开始
+      text: 项目简介
+      link: /introduction/
+    - theme: alt
+      text: leetcode
       link: /leetcode/
+    - theme: alt
+      text: 其他
+      link: /other/
 ---
-

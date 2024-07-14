@@ -43,11 +43,9 @@ async function main () {
     await unlink(path.resolve(filePath, 'javascript.js'))
     await rmdir(filePath)
 
-    const mdPath = path.resolve(path.resolve(), 'docs', codeType)
-    await unlink(path.resolve(mdPath, `${codeName}.md`))
+    await unlink(path.resolve(path.resolve(), 'docs', codeType, `${codeName}.md`))
 
-    const testPath = path.resolve(path.resolve(), 'test', codeType)
-    await unlink(path.resolve(testPath, `${codeName}.test.ts`))
+    await unlink(path.resolve(path.resolve(), 'test', codeType, `${codeName}.test.ts`))
 
     await updateDocsConfig('rm', codeName, codeType)
     await updateDocsMd('rm', codeName, codeType)
