@@ -5,3 +5,4 @@
 - [数组反转](./arrayReverse)
 - [字符串反转](./stringReverse)
 - [链表反转](./listNodeReverse)
+- [十进制转二进制](./decimalToBinary)

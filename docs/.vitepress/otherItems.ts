@@ -18,6 +18,10 @@ const otherItems = [
   {
     "text": "链表反转",
     "link": "/other/listNodeReverse"
+  },
+  {
+    "text": "十进制转二进制",
+    "link": "/other/decimalToBinary"
   }
 ]
     
