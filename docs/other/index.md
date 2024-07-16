@@ -6,3 +6,4 @@
 - [字符串反转](./stringReverse)
 - [链表反转](./listNodeReverse)
 - [十进制转二进制](./decimalToBinary)
+- [二进制转十进制](./binaryToDecimal)

@@ -22,6 +22,10 @@ const otherItems = [
   {
     "text": "十进制转二进制",
     "link": "/other/decimalToBinary"
+  },
+  {
+    "text": "二进制转十进制",
+    "link": "/other/binaryToDecimal"
   }
 ]
     
