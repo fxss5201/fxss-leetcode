@@ -26,6 +26,10 @@ const otherItems = [
   {
     "text": "二进制转十进制",
     "link": "/other/binaryToDecimal"
+  },
+  {
+    "text": "八进制转二进制",
+    "link": "/other/octalToBinary"
   }
 ]
     
