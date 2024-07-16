@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [vue()],
   test: {
     coverage: {
-      reporter: ['text', 'json', 'html'],
+      enabled: true
     },
   },
 })
