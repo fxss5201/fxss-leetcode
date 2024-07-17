@@ -4,13 +4,13 @@ import { addTwoNumbers } from '../../src/leetcode/addTwoNumbers/typescript.ts'
 import { getListNodeJs } from "../../src/utilsJs"
 import { addTwoNumbers as addTwoNumbersJs } from '../../src/leetcode/addTwoNumbers/javascript.js'
 
-const l1Array = [2, 4, 3]
+const l1Array = [2, 4, 5]
 const l2Array = [5, 6, 4]
-const l3Array = [7, 0, 8]
+const l3Array = [7, 0, 0, 1]
 
-const l4Array = [2, 4, 3]
+const l4Array = [2, 4, 5]
 const l5Array = [5, 6, 4]
-const l6Array = [7, 0, 8]
+const l6Array = [7, 0, 0, 1]
 
 const l1 = getListNode(l1Array)
 const l2 = getListNode(l2Array)
