@@ -1,5 +1,7 @@
 # leetcode 算法集
 
+[![Coverage Status](https://coveralls.io/repos/github/fxss5201/fxss-leetcode/badge.svg?branch=main)](https://coveralls.io/github/fxss5201/fxss-leetcode?branch=main)
+
 leetcode 算法集用于记录 leetcode 算法和平常想到的一些算法题，可以在 test 目录使用 vitest 测试，并以 vitepress 文档进行展示。
 
 安装项目：
