@@ -2,7 +2,7 @@
 // 输入：digits = "23"
 // 输出：["ad","ae","af","bd","be","bf","cd","ce","cf"]
 
-export function letterCombinations () {
+export function letterCombinations (digits) {
   if (!digits.length) return []
   const numberObj = {
     2: ['a', 'b', 'c'],
