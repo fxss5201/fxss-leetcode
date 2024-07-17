@@ -2,16 +2,11 @@
 // 输入：decimalToOtherBase(10, 2)
 // 输出：'1010'
 
+import { getMapNumberToString } from "../../utilsJs"
+
 export function decimalToOtherBase (num, base) {
-  if (base === 10 || base > 16 || base < 2) return String(num)
-  const numToStr = {
-    10: 'a',
-    11: 'b',
-    12: 'c',
-    13: 'd',
-    14: 'e',
-    15: 'f'
-  }
+  if (base === 10 || base > 36 || base < 2) return String(num)
+    const numToStr = getMapNumberToString(base)
   let res = ''
   while (num > 0) {
     const remainder = num % base

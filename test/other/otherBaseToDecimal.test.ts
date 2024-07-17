@@ -34,10 +34,18 @@ test(`otherBaseToDecimalJs('2a', 12)`, () => {
   expect(otherBaseToDecimalJs('2a', 12)).toBe(34)
 })
 
-test(`otherBaseToDecimal('2a', 32)`, () => {
-  expect(otherBaseToDecimal('2a', 32)).toBe(NaN)
+test(`otherBaseToDecimal('2s', 36)`, () => {
+  expect(otherBaseToDecimal('2s', 36)).toBe(100)
 })
 
-test(`otherBaseToDecimalJs('2a', 32)`, () => {
-  expect(otherBaseToDecimalJs('2a', 32)).toBe(NaN)
+test(`otherBaseToDecimalJs('2s', 36)`, () => {
+  expect(otherBaseToDecimalJs('2s', 36)).toBe(100)
+})
+
+test(`otherBaseToDecimal('2a', 38)`, () => {
+  expect(otherBaseToDecimal('2a', 38)).toBe(NaN)
+})
+
+test(`otherBaseToDecimalJs('2a', 38)`, () => {
+  expect(otherBaseToDecimalJs('2a', 38)).toBe(NaN)
 })

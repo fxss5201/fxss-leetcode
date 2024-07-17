@@ -34,10 +34,18 @@ test(`decimalToOtherBaseJs(34, 12)`, () => {
   expect(decimalToOtherBaseJs(34, 12)).toBe('2a')
 })
 
-test(`decimalToOtherBase(10, 32)`, () => {
-  expect(decimalToOtherBase(10, 32)).toBe('10')
+test(`decimalToOtherBase(100, 36)`, () => {
+  expect(decimalToOtherBase(100, 36)).toBe('2s')
 })
 
-test(`decimalToOtherBaseJs(10, 32)`, () => {
-  expect(decimalToOtherBaseJs(10, 32)).toBe('10')
+test(`decimalToOtherBaseJs(100, 36)`, () => {
+  expect(decimalToOtherBaseJs(100, 36)).toBe('2s')
+})
+
+test(`decimalToOtherBase(10, 38)`, () => {
+  expect(decimalToOtherBase(10, 38)).toBe('10')
+})
+
+test(`decimalToOtherBaseJs(10, 38)`, () => {
+  expect(decimalToOtherBaseJs(10, 38)).toBe('10')
 })
