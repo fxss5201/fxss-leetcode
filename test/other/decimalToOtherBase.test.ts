@@ -26,6 +26,14 @@ test(`decimalToOtherBaseJs(30, 16)`, () => {
   expect(decimalToOtherBaseJs(30, 16)).toBe('1e')
 })
 
+test(`decimalToOtherBase(34, 12)`, () => {
+  expect(decimalToOtherBase(34, 12)).toBe('2a')
+})
+
+test(`decimalToOtherBaseJs(34, 12)`, () => {
+  expect(decimalToOtherBaseJs(34, 12)).toBe('2a')
+})
+
 test(`decimalToOtherBase(10, 32)`, () => {
   expect(decimalToOtherBase(10, 32)).toBe('10')
 })

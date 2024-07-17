@@ -46,6 +46,10 @@ const otherItems = [
   {
     "text": "十进制转其他进制",
     "link": "/other/decimalToOtherBase"
+  },
+  {
+    "text": "其他进制转十进制",
+    "link": "/other/otherBaseToDecimal"
   }
 ]
     
