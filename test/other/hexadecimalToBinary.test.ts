@@ -9,3 +9,11 @@ test(`hexadecimalToBinary`, () => {
 test(`hexadecimalToBinaryJs`, () => {
   expect(hexadecimalToBinaryJs('16')).toBe('10110')
 })
+
+test(`hexadecimalToBinary`, () => {
+  expect(hexadecimalToBinary('1b')).toBe('11011')
+})
+
+test(`hexadecimalToBinaryJs`, () => {
+  expect(hexadecimalToBinaryJs('1b')).toBe('11011')
+})
