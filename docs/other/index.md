@@ -9,3 +9,4 @@
 - [二进制转十进制](./binaryToDecimal)
 - [八进制转二进制](./octalToBinary)
 - [二进制转八进制](./binaryToOctal)
+- [十六进制转二进制](./hexadecimalToBinary)
