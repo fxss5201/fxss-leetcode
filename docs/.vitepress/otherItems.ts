@@ -42,6 +42,10 @@ const otherItems = [
   {
     "text": "二进制转十六进制",
     "link": "/other/binaryToHexadecimal"
+  },
+  {
+    "text": "十进制转其他进制",
+    "link": "/other/decimalToOtherBase"
   }
 ]
     
