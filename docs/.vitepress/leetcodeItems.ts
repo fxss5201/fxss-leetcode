@@ -56,6 +56,10 @@ const leetcodeItems = [
     "link": "/leetcode/letterCombinations"
   },
   {
+    "text": "18. 四数之和",
+    "link": "/leetcode/fourSum"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
