@@ -64,6 +64,10 @@ const leetcodeItems = [
     "link": "/leetcode/removeNthFromEnd"
   },
   {
+    "text": "20. 有效的括号",
+    "link": "/leetcode/isValidParentheses"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },

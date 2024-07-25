@@ -16,6 +16,7 @@
 - [17. 电话号码的字母组合](./letterCombinations)
 - [18. 四数之和](./fourSum)
 - [19. 删除链表的倒数第 N 个结点](./removeNthFromEnd)
+- [20. 有效的括号](./isValidParentheses)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
 - [2085. 统计出现过一次的公共字符串](./countCommonWordsWithOneOccurrence)
 - [2182. 构造限制重复的字符串](./constructStringWithRepeatLimit)
