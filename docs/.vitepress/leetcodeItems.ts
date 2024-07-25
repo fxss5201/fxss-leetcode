@@ -60,6 +60,10 @@ const leetcodeItems = [
     "link": "/leetcode/fourSum"
   },
   {
+    "text": "19. 删除链表的倒数第 N 个结点",
+    "link": "/leetcode/removeNthFromEnd"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
