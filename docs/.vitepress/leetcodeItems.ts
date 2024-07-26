@@ -72,6 +72,10 @@ const leetcodeItems = [
     "link": "/leetcode/mergeTwoLists"
   },
   {
+    "text": "22. 括号生成",
+    "link": "/leetcode/generateParenthesis"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
