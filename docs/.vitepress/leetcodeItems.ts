@@ -68,6 +68,10 @@ const leetcodeItems = [
     "link": "/leetcode/isValidParentheses"
   },
   {
+    "text": "21. 合并两个有序链表",
+    "link": "/leetcode/mergeTwoLists"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
