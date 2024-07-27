@@ -76,6 +76,10 @@ const leetcodeItems = [
     "link": "/leetcode/generateParenthesis"
   },
   {
+    "text": "24. 两两交换链表中的节点",
+    "link": "/leetcode/swapNodesInPairs"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },

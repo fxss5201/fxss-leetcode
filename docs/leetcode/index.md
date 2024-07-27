@@ -19,6 +19,7 @@
 - [20. 有效的括号](./isValidParentheses)
 - [21. 合并两个有序链表](./mergeTwoLists)
 - [22. 括号生成](./generateParenthesis)
+- [24. 两两交换链表中的节点](./swapNodesInPairs)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
 - [2085. 统计出现过一次的公共字符串](./countCommonWordsWithOneOccurrence)
 - [2182. 构造限制重复的字符串](./constructStringWithRepeatLimit)
