@@ -88,6 +88,10 @@ const leetcodeItems = [
     "link": "/leetcode/removeElement"
   },
   {
+    "text": "28. 找出字符串中第一个匹配项的下标",
+    "link": "/leetcode/strIndexOfStr"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },

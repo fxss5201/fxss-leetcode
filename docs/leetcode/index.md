@@ -22,6 +22,7 @@
 - [24. 两两交换链表中的节点](./swapNodesInPairs)
 - [26. 删除有序数组中的重复项](./removeDuplicates)
 - [27. 移除元素](./removeElement)
+- [28. 找出字符串中第一个匹配项的下标](./strIndexOfStr)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
 - [2085. 统计出现过一次的公共字符串](./countCommonWordsWithOneOccurrence)
 - [2182. 构造限制重复的字符串](./constructStringWithRepeatLimit)
