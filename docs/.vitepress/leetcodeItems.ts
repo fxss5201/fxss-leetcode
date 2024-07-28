@@ -80,6 +80,10 @@ const leetcodeItems = [
     "link": "/leetcode/swapNodesInPairs"
   },
   {
+    "text": "26. 删除有序数组中的重复项",
+    "link": "/leetcode/removeDuplicates"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },

@@ -20,6 +20,7 @@
 - [21. 合并两个有序链表](./mergeTwoLists)
 - [22. 括号生成](./generateParenthesis)
 - [24. 两两交换链表中的节点](./swapNodesInPairs)
+- [26. 删除有序数组中的重复项](./removeDuplicates)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
 - [2085. 统计出现过一次的公共字符串](./countCommonWordsWithOneOccurrence)
 - [2182. 构造限制重复的字符串](./constructStringWithRepeatLimit)
