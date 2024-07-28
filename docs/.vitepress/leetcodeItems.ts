@@ -84,6 +84,10 @@ const leetcodeItems = [
     "link": "/leetcode/removeDuplicates"
   },
   {
+    "text": "27. 移除元素",
+    "link": "/leetcode/removeElement"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
