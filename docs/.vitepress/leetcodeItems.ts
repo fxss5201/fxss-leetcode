@@ -92,6 +92,10 @@ const leetcodeItems = [
     "link": "/leetcode/strIndexOfStr"
   },
   {
+    "text": "31. 下一个排列",
+    "link": "/leetcode/nextPermutation"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
