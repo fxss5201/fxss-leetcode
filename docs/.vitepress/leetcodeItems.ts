@@ -96,6 +96,10 @@ const leetcodeItems = [
     "link": "/leetcode/nextPermutation"
   },
   {
+    "text": "33. 搜索旋转排序数组",
+    "link": "/leetcode/searchInRotatedSortedArray"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },

@@ -24,6 +24,7 @@
 - [27. 移除元素](./removeElement)
 - [28. 找出字符串中第一个匹配项的下标](./strIndexOfStr)
 - [31. 下一个排列](./nextPermutation)
+- [33. 搜索旋转排序数组](./searchInRotatedSortedArray)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
 - [2085. 统计出现过一次的公共字符串](./countCommonWordsWithOneOccurrence)
 - [2182. 构造限制重复的字符串](./constructStringWithRepeatLimit)
