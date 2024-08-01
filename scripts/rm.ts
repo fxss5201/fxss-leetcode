@@ -1,6 +1,7 @@
 import { consola } from 'consola'
 import { access, constants, unlink, rmdir } from 'fs/promises'
 import path from 'path'
+import { camelCase } from 'change-case'
 import updateDocsConfig from './updateDocsConfig'
 import updateDocsMd from './updateDocsMd'
 
@@ -15,6 +16,7 @@ async function main () {
       type: 'text'
     })
   }
+  codeName = camelCase(codeName)
 
   const codeType = await consola.prompt('请选择代码段类型：', {
     type: 'select',

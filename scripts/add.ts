@@ -1,6 +1,7 @@
 import { consola } from 'consola'
 import { access, writeFile, constants, mkdir } from 'fs/promises'
 import path from 'path'
+import { camelCase } from 'change-case'
 import getDefaultCode from './defaultCode'
 import getDefaultMd from './defaultMd'
 import getDefaultTest from './defaultTest'
@@ -18,6 +19,7 @@ async function main () {
       type: 'text'
     })
   }
+  codeName = camelCase(codeName)
 
   const codeTitlePrompt = '请输入代码段标题（中文名称，用于菜单展示）：'
   let codeTitle = await consola.prompt(codeTitlePrompt, {
