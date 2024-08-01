@@ -100,6 +100,10 @@ const leetcodeItems = [
     "link": "/leetcode/searchInRotatedSortedArray"
   },
   {
+    "text": "34. 在排序数组中查找元素的第一个和最后一个位置",
+    "link": "/leetcode/findFirstAndLastPositionOfElementInSortedArray"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
