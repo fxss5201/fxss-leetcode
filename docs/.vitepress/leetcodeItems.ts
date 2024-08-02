@@ -104,6 +104,10 @@ const leetcodeItems = [
     "link": "/leetcode/findFirstAndLastPositionOfElementInSortedArray"
   },
   {
+    "text": "35. 搜索插入位置",
+    "link": "/leetcode/searchInsertPosition"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
