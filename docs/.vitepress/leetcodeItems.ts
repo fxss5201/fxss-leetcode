@@ -112,6 +112,10 @@ const leetcodeItems = [
     "link": "/leetcode/validSudoku"
   },
   {
+    "text": "38. 外观数列",
+    "link": "/leetcode/countAndSay"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
