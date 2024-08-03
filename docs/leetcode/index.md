@@ -27,6 +27,7 @@
 - [33. 搜索旋转排序数组](./searchInRotatedSortedArray)
 - [34. 在排序数组中查找元素的第一个和最后一个位置](./findFirstAndLastPositionOfElementInSortedArray)
 - [35. 搜索插入位置](./searchInsertPosition)
+- [36. 有效的数独](./validSudoku)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
 - [2085. 统计出现过一次的公共字符串](./countCommonWordsWithOneOccurrence)
 - [2182. 构造限制重复的字符串](./constructStringWithRepeatLimit)

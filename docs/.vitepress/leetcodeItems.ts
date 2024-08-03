@@ -108,6 +108,10 @@ const leetcodeItems = [
     "link": "/leetcode/searchInsertPosition"
   },
   {
+    "text": "36. 有效的数独",
+    "link": "/leetcode/validSudoku"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
