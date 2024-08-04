@@ -116,6 +116,10 @@ const leetcodeItems = [
     "link": "/leetcode/countAndSay"
   },
   {
+    "text": "39. 组合总和",
+    "link": "/leetcode/combinationSum"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
