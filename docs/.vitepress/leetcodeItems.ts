@@ -120,6 +120,10 @@ const leetcodeItems = [
     "link": "/leetcode/combinationSum"
   },
   {
+    "text": "45. 跳跃游戏 II",
+    "link": "/leetcode/jumpGameIi"
+  },
+  {
     "text": "58. 最后一个单词的长度",
     "link": "/leetcode/lengthOfLastWord"
   },
