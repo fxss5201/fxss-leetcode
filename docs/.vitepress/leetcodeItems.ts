@@ -120,6 +120,10 @@ const leetcodeItems = [
     "link": "/leetcode/combinationSum"
   },
   {
+    "text": "58. 最后一个单词的长度",
+    "link": "/leetcode/lengthOfLastWord"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
