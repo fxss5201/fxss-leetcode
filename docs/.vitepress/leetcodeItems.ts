@@ -120,6 +120,10 @@ const leetcodeItems = [
     "link": "/leetcode/combinationSum"
   },
   {
+    "text": "40. 组合总和 II",
+    "link": "/leetcode/combinationSumIi"
+  },
+  {
     "text": "45. 跳跃游戏 II",
     "link": "/leetcode/jumpGameIi"
   },
