@@ -128,6 +128,10 @@ const leetcodeItems = [
     "link": "/leetcode/jumpGameIi"
   },
   {
+    "text": "46. 全排列",
+    "link": "/leetcode/permutations"
+  },
+  {
     "text": "58. 最后一个单词的长度",
     "link": "/leetcode/lengthOfLastWord"
   },
