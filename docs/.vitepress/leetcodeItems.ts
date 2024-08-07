@@ -132,6 +132,10 @@ const leetcodeItems = [
     "link": "/leetcode/permutations"
   },
   {
+    "text": "47. 全排列 II",
+    "link": "/leetcode/permutationsIi"
+  },
+  {
     "text": "58. 最后一个单词的长度",
     "link": "/leetcode/lengthOfLastWord"
   },
