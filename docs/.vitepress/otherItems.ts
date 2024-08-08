@@ -50,6 +50,10 @@ const otherItems = [
   {
     "text": "其他进制转十进制",
     "link": "/other/otherBaseToDecimal"
+  },
+  {
+    "text": "组合排列",
+    "link": "/other/combinationArrangement"
   }
 ]
     

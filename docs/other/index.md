@@ -13,3 +13,4 @@
 - [二进制转十六进制](./binaryToHexadecimal)
 - [十进制转其他进制](./decimalToOtherBase)
 - [其他进制转十进制](./otherBaseToDecimal)
+- [组合排列](./combinationArrangement)
