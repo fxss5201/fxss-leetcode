@@ -136,6 +136,10 @@ const leetcodeItems = [
     "link": "/leetcode/permutationsIi"
   },
   {
+    "text": "48. 旋转图像",
+    "link": "/leetcode/rotateImage"
+  },
+  {
     "text": "58. 最后一个单词的长度",
     "link": "/leetcode/lengthOfLastWord"
   },

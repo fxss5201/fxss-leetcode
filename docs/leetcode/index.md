@@ -34,6 +34,7 @@
 - [45. 跳跃游戏 II](./jumpGameIi)
 - [46. 全排列](./permutations)
 - [47. 全排列 II](./permutationsIi)
+- [48. 旋转图像](./rotateImage)
 - [58. 最后一个单词的长度](./lengthOfLastWord)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
 - [2085. 统计出现过一次的公共字符串](./countCommonWordsWithOneOccurrence)
