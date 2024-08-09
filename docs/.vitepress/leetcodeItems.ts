@@ -140,6 +140,10 @@ const leetcodeItems = [
     "link": "/leetcode/rotateImage"
   },
   {
+    "text": "49. 字母异位词分组",
+    "link": "/leetcode/groupAnagrams"
+  },
+  {
     "text": "58. 最后一个单词的长度",
     "link": "/leetcode/lengthOfLastWord"
   },
