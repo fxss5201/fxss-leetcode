@@ -148,6 +148,10 @@ const leetcodeItems = [
     "link": "/leetcode/powxN"
   },
   {
+    "text": "53. 最大子数组和",
+    "link": "/leetcode/maximumSubarray"
+  },
+  {
     "text": "58. 最后一个单词的长度",
     "link": "/leetcode/lengthOfLastWord"
   },

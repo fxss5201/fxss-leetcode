@@ -10,5 +10,5 @@ export function powxN (x, n) {
     const y = dfs(x, Math.floor(n / 2))
     return n % 2 === 0 ? y * y : y * y * x
   }
-  return n > 0 ? dfs(x, n) : 1 / dfs(x, Math.abs(n))
+  return n >= 0 ? dfs(x, n) : 1 / dfs(x, Math.abs(n))
 }
