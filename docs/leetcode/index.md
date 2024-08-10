@@ -36,6 +36,7 @@
 - [47. 全排列 II](./permutationsIi)
 - [48. 旋转图像](./rotateImage)
 - [49. 字母异位词分组](./groupAnagrams)
+- [50. Pow(x, n)](./powxN)
 - [58. 最后一个单词的长度](./lengthOfLastWord)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
 - [2085. 统计出现过一次的公共字符串](./countCommonWordsWithOneOccurrence)

@@ -144,6 +144,10 @@ const leetcodeItems = [
     "link": "/leetcode/groupAnagrams"
   },
   {
+    "text": "50. Pow(x, n)",
+    "link": "/leetcode/powxN"
+  },
+  {
     "text": "58. 最后一个单词的长度",
     "link": "/leetcode/lengthOfLastWord"
   },
