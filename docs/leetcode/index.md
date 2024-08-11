@@ -38,6 +38,7 @@
 - [49. 字母异位词分组](./groupAnagrams)
 - [50. Pow(x, n)](./powxN)
 - [53. 最大子数组和](./maximumSubarray)
+- [54. 螺旋矩阵](./spiralMatrix)
 - [58. 最后一个单词的长度](./lengthOfLastWord)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
 - [2085. 统计出现过一次的公共字符串](./countCommonWordsWithOneOccurrence)

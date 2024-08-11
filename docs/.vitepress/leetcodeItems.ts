@@ -152,6 +152,10 @@ const leetcodeItems = [
     "link": "/leetcode/maximumSubarray"
   },
   {
+    "text": "54. 螺旋矩阵",
+    "link": "/leetcode/spiralMatrix"
+  },
+  {
     "text": "58. 最后一个单词的长度",
     "link": "/leetcode/lengthOfLastWord"
   },
