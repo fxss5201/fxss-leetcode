@@ -156,6 +156,10 @@ const leetcodeItems = [
     "link": "/leetcode/spiralMatrix"
   },
   {
+    "text": "55. 跳跃游戏",
+    "link": "/leetcode/jumpGame"
+  },
+  {
     "text": "58. 最后一个单词的长度",
     "link": "/leetcode/lengthOfLastWord"
   },
