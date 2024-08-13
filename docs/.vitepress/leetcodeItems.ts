@@ -160,6 +160,10 @@ const leetcodeItems = [
     "link": "/leetcode/jumpGame"
   },
   {
+    "text": "56. 合并区间",
+    "link": "/leetcode/mergeIntervals"
+  },
+  {
     "text": "58. 最后一个单词的长度",
     "link": "/leetcode/lengthOfLastWord"
   },
