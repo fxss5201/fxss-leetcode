@@ -164,6 +164,10 @@ const leetcodeItems = [
     "link": "/leetcode/mergeIntervals"
   },
   {
+    "text": "57. 插入区间",
+    "link": "/leetcode/insertInterval"
+  },
+  {
     "text": "58. 最后一个单词的长度",
     "link": "/leetcode/lengthOfLastWord"
   },
