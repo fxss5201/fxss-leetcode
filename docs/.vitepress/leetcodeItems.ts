@@ -172,6 +172,10 @@ const leetcodeItems = [
     "link": "/leetcode/lengthOfLastWord"
   },
   {
+    "text": "59. 螺旋矩阵 II",
+    "link": "/leetcode/spiralMatrixIi"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
