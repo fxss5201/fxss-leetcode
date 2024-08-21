@@ -176,6 +176,10 @@ const leetcodeItems = [
     "link": "/leetcode/spiralMatrixIi"
   },
   {
+    "text": "61. 旋转链表",
+    "link": "/leetcode/rotateList"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
