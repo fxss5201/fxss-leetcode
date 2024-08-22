@@ -180,6 +180,10 @@ const leetcodeItems = [
     "link": "/leetcode/rotateList"
   },
   {
+    "text": "62. 不同路径",
+    "link": "/leetcode/uniquePaths"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },

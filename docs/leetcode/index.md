@@ -45,6 +45,7 @@
 - [58. 最后一个单词的长度](./lengthOfLastWord)
 - [59. 螺旋矩阵 II](./spiralMatrixIi)
 - [61. 旋转链表](./rotateList)
+- [62. 不同路径](./uniquePaths)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
 - [2085. 统计出现过一次的公共字符串](./countCommonWordsWithOneOccurrence)
 - [2182. 构造限制重复的字符串](./constructStringWithRepeatLimit)
