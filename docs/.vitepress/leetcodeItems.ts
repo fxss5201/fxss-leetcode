@@ -184,6 +184,10 @@ const leetcodeItems = [
     "link": "/leetcode/uniquePaths"
   },
   {
+    "text": "63. 不同路径 II",
+    "link": "/leetcode/uniquePathsIi"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
