@@ -188,6 +188,10 @@ const leetcodeItems = [
     "link": "/leetcode/uniquePathsIi"
   },
   {
+    "text": "64. 最小路径和",
+    "link": "/leetcode/minimumPathSum"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
