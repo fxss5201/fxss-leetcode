@@ -192,6 +192,10 @@ const leetcodeItems = [
     "link": "/leetcode/minimumPathSum"
   },
   {
+    "text": "66. 加一",
+    "link": "/leetcode/plusOne"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
