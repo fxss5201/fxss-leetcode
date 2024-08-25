@@ -196,6 +196,10 @@ const leetcodeItems = [
     "link": "/leetcode/plusOne"
   },
   {
+    "text": "67. 二进制求和",
+    "link": "/leetcode/addBinary"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
