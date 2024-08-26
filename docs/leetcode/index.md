@@ -51,6 +51,7 @@
 - [66. 加一](./plusOne)
 - [67. 二进制求和](./addBinary)
 - [69. x 的平方根](./sqrtx)
+- [70. 爬楼梯](./climbingStairs)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
 - [2085. 统计出现过一次的公共字符串](./countCommonWordsWithOneOccurrence)
 - [2182. 构造限制重复的字符串](./constructStringWithRepeatLimit)

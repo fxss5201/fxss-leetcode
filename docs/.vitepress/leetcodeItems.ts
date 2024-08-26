@@ -204,6 +204,10 @@ const leetcodeItems = [
     "link": "/leetcode/sqrtx"
   },
   {
+    "text": "70. 爬楼梯",
+    "link": "/leetcode/climbingStairs"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
