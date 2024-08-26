@@ -200,6 +200,10 @@ const leetcodeItems = [
     "link": "/leetcode/addBinary"
   },
   {
+    "text": "69. x 的平方根",
+    "link": "/leetcode/sqrtx"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
