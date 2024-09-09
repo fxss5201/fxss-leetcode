@@ -4,6 +4,13 @@
 
 [国内展示网址](https://www.fxss.work/fxss-leetcode/)
 
+其他网址：
+
+- 低代码：<https://www.fxss.work/>
+- Vue组件：<https://www.fxss.work/vue-components/>
+- 个人博客：<https://blog.fxss.work/>
+- web库：<https://www.fxss.work/webLibraries/>
+
 leetcode 算法集用于记录 leetcode 算法和平常想到的一些算法题，可以在 test 目录使用 vitest 测试，并以 vitepress 文档进行展示。
 
 安装项目：
