@@ -53,6 +53,7 @@
 - [69. x 的平方根](./sqrtx)
 - [70. 爬楼梯](./climbingStairs)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
+- [633. 平方数之和](./judgeSquareSum)
 - [2085. 统计出现过一次的公共字符串](./countCommonWordsWithOneOccurrence)
 - [2182. 构造限制重复的字符串](./constructStringWithRepeatLimit)
 - [2645. 构造有效字符串的最少插入数](./addMinimum)

@@ -212,6 +212,10 @@ const leetcodeItems = [
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
   {
+    "text": "633. 平方数之和",
+    "link": "/leetcode/judgeSquareSum"
+  },
+  {
     "text": "2085. 统计出现过一次的公共字符串",
     "link": "/leetcode/countCommonWordsWithOneOccurrence"
   },
