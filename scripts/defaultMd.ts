@@ -18,7 +18,7 @@ ${codeTypeNeedUrl.includes(type) ? `[${title}](${url})` : title}
 
 ::: code-group
 
-<<< ../../src/${type}/${name}/${name}.test.js{ts} [test]
+<<< ../../src/${type}/${name}/${name}.test.ts{ts} [test]
 
 :::
 `
