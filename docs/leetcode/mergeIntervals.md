@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/mergeIntervals/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/mergeIntervals/mergeIntervals.test.ts{ts} [test]
+
+:::

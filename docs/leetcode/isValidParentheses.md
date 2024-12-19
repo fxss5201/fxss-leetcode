@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/isValidParentheses/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/isValidParentheses/isValidParentheses.test.ts{ts} [test]
+
+:::

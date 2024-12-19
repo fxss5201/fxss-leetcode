@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/longestCommonPrefix/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/longestCommonPrefix/longestCommonPrefix.test.ts{ts} [test]
+
+:::

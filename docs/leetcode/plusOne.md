@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/plusOne/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/plusOne/plusOne.test.ts{ts} [test]
+
+:::

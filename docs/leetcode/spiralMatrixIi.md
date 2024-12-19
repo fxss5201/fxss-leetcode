@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/spiralMatrixIi/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/spiralMatrixIi/spiralMatrixIi.test.ts{ts} [test]
+
+:::

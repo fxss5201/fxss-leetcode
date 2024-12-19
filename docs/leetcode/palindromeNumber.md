@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/palindromeNumber/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/palindromeNumber/palindromeNumber.test.ts{ts} [test]
+
+:::

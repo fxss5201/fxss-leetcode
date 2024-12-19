@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/insertInterval/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/insertInterval/insertInterval.test.ts{ts} [test]
+
+:::

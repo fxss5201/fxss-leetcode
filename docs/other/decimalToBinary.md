@@ -10,3 +10,11 @@
 <<< ../../src/other/decimalToBinary/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/other/decimalToBinary/decimalToBinary.test.ts{ts} [test]
+
+:::

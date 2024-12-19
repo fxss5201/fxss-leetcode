@@ -54,3 +54,11 @@ Y   I   R
 <<< ../../src/leetcode/zigzagConversion/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/zigzagConversion/zigzagConversion.test.ts{ts} [test]
+
+:::

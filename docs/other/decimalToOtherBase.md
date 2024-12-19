@@ -42,3 +42,11 @@ export function getMapNumberToString (base: number) {
 <<< ../../src/other/decimalToOtherBase/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/other/decimalToOtherBase/decimalToOtherBase.test.ts{ts} [test]
+
+:::

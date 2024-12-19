@@ -41,3 +41,11 @@
 <<< ../../src/leetcode/removeDuplicatesFromSortedList/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/removeDuplicatesFromSortedList/removeDuplicatesFromSortedList.test.ts{ts} [test]
+
+:::

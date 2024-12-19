@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/groupAnagrams/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/groupAnagrams/groupAnagrams.test.ts{ts} [test]
+
+:::

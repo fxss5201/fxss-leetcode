@@ -10,3 +10,11 @@
 <<< ../../src/other/binaryToOctal/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/other/binaryToOctal/binaryToOctal.test.ts{ts} [test]
+
+:::

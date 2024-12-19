@@ -10,3 +10,11 @@
 <<< ../../src/other/binaryToHexadecimal/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/other/binaryToHexadecimal/binaryToHexadecimal.test.ts{ts} [test]
+
+:::

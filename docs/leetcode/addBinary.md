@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/addBinary/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/addBinary/addBinary.test.ts{ts} [test]
+
+:::

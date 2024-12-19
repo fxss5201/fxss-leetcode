@@ -2,7 +2,7 @@ import { writeFile } from 'fs/promises'
 import path from 'path'
 import leetcodeItems from '../docs/.vitepress/leetcodeItems'
 import otherItems from '../docs/.vitepress/otherItems'
-import { type ItemType, leetcodeAddItems } from './common'
+import { type ItemType, listAddItems } from './common'
 
 async function updateDocsConfig (handle: string, name: string, type: string, title: string = ''): Promise<void> {
   let items: ItemType[] = []
@@ -10,7 +10,7 @@ async function updateDocsConfig (handle: string, name: string, type: string, tit
     const titleSortNum = parseInt(title)
     if (type === 'leetcode') {
       if (titleSortNum) {
-        items = leetcodeAddItems(leetcodeItems, { text: title, link: `/${type}/${name}`, sort: titleSortNum })
+        items = listAddItems(leetcodeItems, { text: title, link: `/${type}/${name}`, sort: titleSortNum })
       } else {
         items = leetcodeItems
         items.push({ text: title, link: `/${type}/${name}` })

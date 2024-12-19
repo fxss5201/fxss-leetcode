@@ -25,3 +25,11 @@
 <<< ../../src/other/listNodeReverse/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/other/listNodeReverse/listNodeReverse.test.ts{ts} [test]
+
+:::

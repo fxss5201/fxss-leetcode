@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/uniquePaths/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/uniquePaths/uniquePaths.test.ts{ts} [test]
+
+:::

@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/swapNodesInPairs/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/swapNodesInPairs/swapNodesInPairs.test.ts{ts} [test]
+
+:::

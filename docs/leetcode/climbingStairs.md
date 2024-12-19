@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/climbingStairs/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/climbingStairs/climbingStairs.test.ts{ts} [test]
+
+:::

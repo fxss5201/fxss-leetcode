@@ -47,3 +47,11 @@
 <<< ../../src/leetcode/addTwoNumbers/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/addTwoNumbers/addTwoNumbers.test.ts{ts} [test]
+
+:::

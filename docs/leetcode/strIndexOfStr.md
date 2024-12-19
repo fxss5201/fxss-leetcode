@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/strIndexOfStr/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/strIndexOfStr/strIndexOfStr.test.ts{ts} [test]
+
+:::

@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/sqrtx/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/sqrtx/sqrtx.test.ts{ts} [test]
+
+:::

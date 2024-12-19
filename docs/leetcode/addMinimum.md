@@ -49,3 +49,11 @@
 <<< ../../src/leetcode/addMinimum/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/addMinimum/addMinimum.test.ts{ts} [test]
+
+:::

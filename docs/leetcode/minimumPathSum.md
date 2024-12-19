@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/minimumPathSum/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/minimumPathSum/minimumPathSum.test.ts{ts} [test]
+
+:::

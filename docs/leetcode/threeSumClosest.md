@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/threeSumClosest/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/threeSumClosest/threeSumClosest.test.ts{ts} [test]
+
+:::

@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/powxN/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/powxN/powxN.test.ts{ts} [test]
+
+:::

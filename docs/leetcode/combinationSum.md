@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/combinationSum/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/combinationSum/combinationSum.test.ts{ts} [test]
+
+:::

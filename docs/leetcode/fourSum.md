@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/fourSum/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/fourSum/fourSum.test.ts{ts} [test]
+
+:::

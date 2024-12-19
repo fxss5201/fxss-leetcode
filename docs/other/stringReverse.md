@@ -17,3 +17,11 @@
 <<< ../../src/other/stringReverse/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/other/stringReverse/stringReverse.test.ts{ts} [test]
+
+:::

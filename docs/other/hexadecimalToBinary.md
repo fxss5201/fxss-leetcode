@@ -10,3 +10,11 @@
 <<< ../../src/other/hexadecimalToBinary/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/other/hexadecimalToBinary/hexadecimalToBinary.test.ts{ts} [test]
+
+:::

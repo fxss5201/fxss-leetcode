@@ -52,3 +52,11 @@
 <<< ../../src/leetcode/countCommonWordsWithOneOccurrence/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/countCommonWordsWithOneOccurrence/countCommonWordsWithOneOccurrence.test.ts{ts} [test]
+
+:::

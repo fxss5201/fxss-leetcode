@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/searchInRotatedSortedArray/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/searchInRotatedSortedArray/searchInRotatedSortedArray.test.ts{ts} [test]
+
+:::

@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/removeDuplicates/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/removeDuplicates/removeDuplicates.test.ts{ts} [test]
+
+:::

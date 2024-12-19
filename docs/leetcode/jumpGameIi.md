@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/jumpGameIi/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/jumpGameIi/jumpGameIi.test.ts{ts} [test]
+
+:::

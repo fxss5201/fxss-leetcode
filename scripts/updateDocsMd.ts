@@ -1,6 +1,6 @@
 import { writeFile, readFile } from 'fs/promises'
 import path from 'path'
-import { type ItemType, leetcodeAddItems } from './common'
+import { type ItemType, listAddItems } from './common'
 
 async function updateDocsMd (handle: string, name: string, type: string, title: string = ''): Promise<void> {
   const filePath = path.resolve(path.resolve(), 'docs', type, 'index.md')
@@ -11,7 +11,7 @@ async function updateDocsMd (handle: string, name: string, type: string, title: 
   if (handle === 'add') {
     const titleSortNum = parseInt(title)
     if (type === 'leetcode' && titleSortNum) {
-      items = leetcodeAddItems(items, { text: title, link: name, sort: titleSortNum })
+      items = listAddItems(items, { text: title, link: name, sort: titleSortNum })
     } else {
       items.push({ text: title, link: name })
     }

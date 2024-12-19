@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/reverseInteger/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/reverseInteger/reverseInteger.test.ts{ts} [test]
+
+:::

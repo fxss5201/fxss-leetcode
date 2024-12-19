@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/romanToInteger/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/romanToInteger/romanToInteger.test.ts{ts} [test]
+
+:::

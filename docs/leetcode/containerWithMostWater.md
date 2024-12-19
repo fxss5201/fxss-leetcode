@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/containerWithMostWater/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/containerWithMostWater/containerWithMostWater.test.ts{ts} [test]
+
+:::

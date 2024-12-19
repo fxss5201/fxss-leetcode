@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/lengthOfLastWord/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/lengthOfLastWord/lengthOfLastWord.test.ts{ts} [test]
+
+:::

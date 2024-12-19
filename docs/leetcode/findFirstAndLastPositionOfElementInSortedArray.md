@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/findFirstAndLastPositionOfElementInSortedArray/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/findFirstAndLastPositionOfElementInSortedArray/findFirstAndLastPositionOfElementInSortedArray.test.ts{ts} [test]
+
+:::

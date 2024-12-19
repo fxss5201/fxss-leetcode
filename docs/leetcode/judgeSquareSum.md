@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/judgeSquareSum/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/judgeSquareSum/judgeSquareSum.test.ts{ts} [test]
+
+:::

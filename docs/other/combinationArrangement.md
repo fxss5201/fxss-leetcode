@@ -10,3 +10,11 @@
 <<< ../../src/other/combinationArrangement/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/other/combinationArrangement/combinationArrangement.test.ts{ts} [test]
+
+:::

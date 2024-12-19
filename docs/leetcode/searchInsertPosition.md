@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/searchInsertPosition/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/searchInsertPosition/searchInsertPosition.test.ts{ts} [test]
+
+:::

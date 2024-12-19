@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/countAndSay/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/countAndSay/countAndSay.test.ts{ts} [test]
+
+:::

@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/longestPalindromicSubstring/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/longestPalindromicSubstring/longestPalindromicSubstring.test.ts{ts} [test]
+
+:::

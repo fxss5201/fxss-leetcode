@@ -7,6 +7,7 @@ import getDefaultMd from './defaultMd'
 import getDefaultTest from './defaultTest'
 import updateDocsConfig from './updateDocsConfig'
 import updateDocsMd from './updateDocsMd'
+import { codeTypeList, codeTypeDefault, codeTypeNeedUrl } from './config'
 
 async function main () {
   const codeNamePrompt = '请输入代码段名称（字符串key，用于生产文件名，建议使用小驼峰字符串）：'
@@ -34,16 +35,13 @@ async function main () {
 
   const codeType = await consola.prompt('请选择代码段类型：', {
     type: 'select',
-    options: [
-      'leetcode',
-      'other',
-    ],
-    initial: 'leetcode',
+    options: codeTypeList,
+    initial: codeTypeDefault,
   })
 
   let codeUrl = ''
-  if (codeType === 'leetcode') {
-    codeUrl = await consola.prompt('请输入代码段 leetcode 链接：', {
+  if (codeTypeNeedUrl.includes(codeType)) {
+    codeUrl = await consola.prompt(`请输入代码段 ${codeType} 链接：`, {
       type: 'text'
     })
   }
@@ -64,16 +62,16 @@ async function main () {
       defaultCode
     )
 
+    const defaultTest = getDefaultTest(codeName, codeType)
+    await writeFile(
+      path.resolve(filePath, `${codeName}.test.ts`),
+      defaultTest
+    )
+
     const defaultMd = getDefaultMd(codeName, codeType, codeTitle, codeUrl)
     await writeFile(
       path.resolve(path.resolve(), 'docs', codeType, `${codeName}.md`),
       defaultMd
-    )
-
-    const defaultTest = getDefaultTest(codeName, codeType)
-    await writeFile(
-      path.resolve(path.resolve(), 'test', codeType, `${codeName}.test.ts`),
-      defaultTest
     )
 
     await updateDocsConfig('add', codeName, codeType, codeTitle)

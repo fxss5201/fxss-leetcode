@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/rotateList/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/rotateList/rotateList.test.ts{ts} [test]
+
+:::

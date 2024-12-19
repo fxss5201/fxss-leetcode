@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/removeElement/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/removeElement/removeElement.test.ts{ts} [test]
+
+:::

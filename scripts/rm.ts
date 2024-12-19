@@ -4,6 +4,7 @@ import path from 'path'
 import { camelCase } from 'change-case'
 import updateDocsConfig from './updateDocsConfig'
 import updateDocsMd from './updateDocsMd'
+import { codeTypeList, codeTypeDefault, codeTypeNeedUrl } from './config'
 
 async function main () {
   const codeNamePrompt = '请输入代码段名称（字符串key，用于生产文件名，建议使用小驼峰字符串）：'
@@ -20,11 +21,8 @@ async function main () {
 
   const codeType = await consola.prompt('请选择代码段类型：', {
     type: 'select',
-    options: [
-      'leetcode',
-      'other',
-    ],
-    initial: 'leetcode',
+    options: codeTypeList,
+    initial: codeTypeDefault,
   })
 
   const filePath = path.resolve(path.resolve(), 'src', codeType, codeName)
@@ -43,11 +41,10 @@ async function main () {
 
     await unlink(path.resolve(filePath, 'typescript.ts'))
     await unlink(path.resolve(filePath, 'javascript.js'))
+    await unlink(path.resolve(filePath, `${codeName}.test.ts`))
     await rmdir(filePath)
 
     await unlink(path.resolve(path.resolve(), 'docs', codeType, `${codeName}.md`))
-
-    await unlink(path.resolve(path.resolve(), 'test', codeType, `${codeName}.test.ts`))
 
     await updateDocsConfig('rm', codeName, codeType)
     await updateDocsMd('rm', codeName, codeType)

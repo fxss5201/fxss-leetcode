@@ -39,3 +39,11 @@
 <<< ../../src/leetcode/twoSum/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/twoSum/twoSum.test.ts{ts} [test]
+
+:::

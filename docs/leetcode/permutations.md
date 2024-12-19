@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/permutations/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/permutations/permutations.test.ts{ts} [test]
+
+:::

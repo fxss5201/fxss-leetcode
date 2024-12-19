@@ -43,3 +43,11 @@
 <<< ../../src/leetcode/minimumStringLengthAfterRemovingSubstrings/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/minimumStringLengthAfterRemovingSubstrings/minimumStringLengthAfterRemovingSubstrings.test.ts{ts} [test]
+
+:::

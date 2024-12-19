@@ -10,3 +10,11 @@
 <<< ../../src/other/octalToBinary/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/other/octalToBinary/octalToBinary.test.ts{ts} [test]
+
+:::

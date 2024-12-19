@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/validSudoku/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/validSudoku/validSudoku.test.ts{ts} [test]
+
+:::

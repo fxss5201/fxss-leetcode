@@ -1,7 +1,9 @@
+import { codeTypeNeedUrl } from './config'
+
 function getDefaultMd (name: string, type: string, title: string, url: string): string {
   return `# ${title}
 
-${type === 'leetcode' ? `[${title}](${url})` : title}
+${codeTypeNeedUrl.includes(type) ? `[${title}](${url})` : title}
 
 ## 代码
 
@@ -9,6 +11,14 @@ ${type === 'leetcode' ? `[${title}](${url})` : title}
 
 <<< ../../src/${type}/${name}/javascript.js{javascript} [javascript]
 <<< ../../src/${type}/${name}/typescript.ts{typescript} [typescript]
+
+:::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/${type}/${name}/${name}.test.js{ts} [test]
 
 :::
 `

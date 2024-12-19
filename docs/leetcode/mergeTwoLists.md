@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/mergeTwoLists/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/mergeTwoLists/mergeTwoLists.test.ts{ts} [test]
+
+:::

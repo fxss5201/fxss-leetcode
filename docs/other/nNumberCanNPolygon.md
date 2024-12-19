@@ -37,3 +37,11 @@ n个数值是否可以组成n边形。
 <<< ../../src/other/nNumberCanNPolygon/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/other/nNumberCanNPolygon/nNumberCanNPolygon.test.ts{ts} [test]
+
+:::

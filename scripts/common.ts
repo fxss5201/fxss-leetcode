@@ -16,11 +16,11 @@ export function listAddSort (list: ItemType[]): ItemAddSortType[] {
   })
 }
 
-export function leetcodeAddItems (list: ItemType[], addItem: ItemAddSortType): ItemType[] {
+export function listAddItems (list: ItemType[], addItem: ItemAddSortType): ItemType[] {
   const itemsAddSort = listAddSort(list)
   for (let i = 0; i < itemsAddSort.length; i++) {
     const item = itemsAddSort[i]
-    if ((i === 0 && addItem.sort < item.sort) || (addItem.sort < item.sort && addItem.sort > itemsAddSort[i - 1].sort)) {
+    if ((i === 0 && addItem.sort < item.sort) || (addItem.sort < item.sort && addItem.sort > itemsAddSort[i - 1].sort) || (i === itemsAddSort.length - 1 && addItem.sort > item.sort)) {
       itemsAddSort.splice(i, 0, addItem)
       break
     }

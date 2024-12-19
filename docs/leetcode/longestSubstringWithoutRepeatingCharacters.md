@@ -46,3 +46,11 @@
 <<< ../../src/leetcode/longestSubstringWithoutRepeatingCharacters/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/longestSubstringWithoutRepeatingCharacters/longestSubstringWithoutRepeatingCharacters.test.ts{ts} [test]
+
+:::

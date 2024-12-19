@@ -17,3 +17,11 @@
 <<< ../../src/other/arrayReverse/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/other/arrayReverse/arrayReverse.test.ts{ts} [test]
+
+:::

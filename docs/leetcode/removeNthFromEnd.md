@@ -10,3 +10,11 @@
 <<< ../../src/leetcode/removeNthFromEnd/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/removeNthFromEnd/removeNthFromEnd.test.ts{ts} [test]
+
+:::

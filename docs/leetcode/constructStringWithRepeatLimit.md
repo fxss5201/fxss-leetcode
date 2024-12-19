@@ -64,3 +64,11 @@
 <<< ../../src/leetcode/constructStringWithRepeatLimit/typescript.ts{typescript} [typescript]
 
 :::
+
+## 测试代码
+
+::: code-group
+
+<<< ../../src/leetcode/constructStringWithRepeatLimit/constructStringWithRepeatLimit.test.ts{ts} [test]
+
+:::
