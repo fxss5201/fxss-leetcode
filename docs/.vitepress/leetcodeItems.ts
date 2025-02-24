@@ -216,6 +216,10 @@ const leetcodeItems = [
     "link": "/leetcode/judgeSquareSum"
   },
   {
+    "text": "746. 使用最小花费爬楼梯",
+    "link": "/leetcode/minCostClimbingStairs"
+  },
+  {
     "text": "2085. 统计出现过一次的公共字符串",
     "link": "/leetcode/countCommonWordsWithOneOccurrence"
   },
