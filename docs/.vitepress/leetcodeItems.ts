@@ -208,6 +208,10 @@ const leetcodeItems = [
     "link": "/leetcode/climbingStairs"
   },
   {
+    "text": "71. 简化路径",
+    "link": "/leetcode/simplifyPath"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
