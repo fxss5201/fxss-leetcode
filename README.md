@@ -11,7 +11,7 @@
 - 个人博客：<https://blog.fxss.work/>
 - web库：<https://www.fxss.work/webLibraries/>
 
-leetcode 算法集用于记录 leetcode 算法和平常想到的一些算法题，可以在 test 目录使用 vitest 测试，并以 vitepress 文档进行展示。
+leetcode 算法集用于记录 leetcode 算法和平常想到的一些算法题，使用 vitest 测试，并以 vitepress 文档进行展示。
 
 安装项目：
 
