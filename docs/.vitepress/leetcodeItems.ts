@@ -24,6 +24,10 @@ const leetcodeItems = [
     "link": "/leetcode/reverseInteger"
   },
   {
+    "text": "8. 字符串转换整数 (atoi)",
+    "link": "/leetcode/stringToIntegerAtoi"
+  },
+  {
     "text": "9. 回文数",
     "link": "/leetcode/palindromeNumber"
   },

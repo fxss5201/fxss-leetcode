@@ -6,6 +6,7 @@
 - [5. 最长回文子串](./longestPalindromicSubstring)
 - [6. Z 字形变换](./zigzagConversion)
 - [7. 整数反转](./reverseInteger)
+- [8. 字符串转换整数 (atoi)](./stringToIntegerAtoi)
 - [9. 回文数](./palindromeNumber)
 - [11. 盛最多水的容器](./containerWithMostWater)
 - [12. 整数转罗马数字](./integerToRoman)
