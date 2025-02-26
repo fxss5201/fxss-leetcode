@@ -56,6 +56,7 @@
 - [70. 爬楼梯](./climbingStairs)
 - [71. 简化路径](./simplifyPath)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
+- [415. 字符串相加](./addStrings)
 - [633. 平方数之和](./judgeSquareSum)
 - [746. 使用最小花费爬楼梯](./minCostClimbingStairs)
 - [2085. 统计出现过一次的公共字符串](./countCommonWordsWithOneOccurrence)

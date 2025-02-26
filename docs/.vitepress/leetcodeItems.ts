@@ -224,6 +224,10 @@ const leetcodeItems = [
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
   {
+    "text": "415. 字符串相加",
+    "link": "/leetcode/addStrings"
+  },
+  {
     "text": "633. 平方数之和",
     "link": "/leetcode/judgeSquareSum"
   },
