@@ -96,6 +96,10 @@ const leetcodeItems = [
     "link": "/leetcode/strIndexOfStr"
   },
   {
+    "text": "29. 两数相除",
+    "link": "/leetcode/divideTwoIntegers"
+  },
+  {
     "text": "31. 下一个排列",
     "link": "/leetcode/nextPermutation"
   },

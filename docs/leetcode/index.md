@@ -24,6 +24,7 @@
 - [26. 删除有序数组中的重复项](./removeDuplicates)
 - [27. 移除元素](./removeElement)
 - [28. 找出字符串中第一个匹配项的下标](./strIndexOfStr)
+- [29. 两数相除](./divideTwoIntegers)
 - [31. 下一个排列](./nextPermutation)
 - [33. 搜索旋转排序数组](./searchInRotatedSortedArray)
 - [34. 在排序数组中查找元素的第一个和最后一个位置](./findFirstAndLastPositionOfElementInSortedArray)
