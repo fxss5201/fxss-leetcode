@@ -220,6 +220,10 @@ const leetcodeItems = [
     "link": "/leetcode/simplifyPath"
   },
   {
+    "text": "75. 颜色分类",
+    "link": "/leetcode/sortColors"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
