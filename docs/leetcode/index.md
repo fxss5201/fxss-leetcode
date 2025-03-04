@@ -58,6 +58,7 @@
 - [73. 矩阵置零](./setMatrixZeroes)
 - [75. 颜色分类](./sortColors)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
+- [289. 生命游戏](./gameOfLife)
 - [415. 字符串相加](./addStrings)
 - [633. 平方数之和](./judgeSquareSum)
 - [746. 使用最小花费爬楼梯](./minCostClimbingStairs)

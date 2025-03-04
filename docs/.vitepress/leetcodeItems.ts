@@ -232,6 +232,10 @@ const leetcodeItems = [
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
   {
+    "text": "289. 生命游戏",
+    "link": "/leetcode/gameOfLife"
+  },
+  {
     "text": "415. 字符串相加",
     "link": "/leetcode/addStrings"
   },
