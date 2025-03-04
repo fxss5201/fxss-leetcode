@@ -220,6 +220,10 @@ const leetcodeItems = [
     "link": "/leetcode/simplifyPath"
   },
   {
+    "text": "73. 矩阵置零",
+    "link": "/leetcode/setMatrixZeroes"
+  },
+  {
     "text": "75. 颜色分类",
     "link": "/leetcode/sortColors"
   },

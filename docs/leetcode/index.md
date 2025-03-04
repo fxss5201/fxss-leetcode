@@ -55,6 +55,7 @@
 - [69. x 的平方根](./sqrtx)
 - [70. 爬楼梯](./climbingStairs)
 - [71. 简化路径](./simplifyPath)
+- [73. 矩阵置零](./setMatrixZeroes)
 - [75. 颜色分类](./sortColors)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
 - [415. 字符串相加](./addStrings)
