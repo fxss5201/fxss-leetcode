@@ -224,6 +224,10 @@ const leetcodeItems = [
     "link": "/leetcode/setMatrixZeroes"
   },
   {
+    "text": "74. 搜索二维矩阵",
+    "link": "/leetcode/searchA_2dMatrix"
+  },
+  {
     "text": "75. 颜色分类",
     "link": "/leetcode/sortColors"
   },
