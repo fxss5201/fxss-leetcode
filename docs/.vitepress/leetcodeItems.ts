@@ -236,6 +236,10 @@ const leetcodeItems = [
     "link": "/leetcode/combinations"
   },
   {
+    "text": "78. 子集",
+    "link": "/leetcode/subsets"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
