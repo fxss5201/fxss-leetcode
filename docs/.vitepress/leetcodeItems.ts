@@ -232,6 +232,10 @@ const leetcodeItems = [
     "link": "/leetcode/sortColors"
   },
   {
+    "text": "77. 组合",
+    "link": "/leetcode/combinations"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
