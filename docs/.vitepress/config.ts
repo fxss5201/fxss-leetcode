@@ -56,16 +56,34 @@ export default defineConfig({
       { text: '泛积木-低代码', link: 'https://www.fxss.work/' },
     ],
 
-    sidebar: [
-      {
-        text: 'leetcode',
-        items: leetcodeItems
-      },
-      {
-        text: 'other',
-        items: otherItems
-      },
-    ],
+    sidebar: {
+      'introduction/': [
+        {
+          text: 'leetcode',
+          collapsed: false,
+          items: leetcodeItems
+        },
+        {
+          text: 'other',
+          collapsed: false,
+          items: otherItems
+        }
+      ],
+      '/leetcode/': [
+        {
+          text: 'leetcode',
+          collapsed: false,
+          items: leetcodeItems
+        }
+      ],
+      '/other/': [
+        {
+          text: 'other',
+          collapsed: false,
+          items: otherItems
+        }
+      ],
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/fxss5201/fxss-leetcode' },
