@@ -240,6 +240,10 @@ const leetcodeItems = [
     "link": "/leetcode/subsets"
   },
   {
+    "text": "79. 单词搜索",
+    "link": "/leetcode/wordSearch"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
