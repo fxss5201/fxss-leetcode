@@ -244,6 +244,10 @@ const leetcodeItems = [
     "link": "/leetcode/wordSearch"
   },
   {
+    "text": "80. 删除有序数组中的重复项 II",
+    "link": "/leetcode/removeDuplicatesFromSortedArrayIi"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },
