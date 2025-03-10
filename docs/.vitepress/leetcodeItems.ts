@@ -248,6 +248,10 @@ const leetcodeItems = [
     "link": "/leetcode/removeDuplicatesFromSortedArrayIi"
   },
   {
+    "text": "81. 搜索旋转排序数组 II",
+    "link": "/leetcode/searchInRotatedSortedArrayIi"
+  },
+  {
     "text": "83. 删除排序链表中的重复元素",
     "link": "/leetcode/removeDuplicatesFromSortedList"
   },

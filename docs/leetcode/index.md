@@ -62,6 +62,7 @@
 - [78. 子集](./subsets)
 - [79. 单词搜索](./wordSearch)
 - [80. 删除有序数组中的重复项 II](./removeDuplicatesFromSortedArrayIi)
+- [81. 搜索旋转排序数组 II](./searchInRotatedSortedArrayIi)
 - [83. 删除排序链表中的重复元素](./removeDuplicatesFromSortedList)
 - [289. 生命游戏](./gameOfLife)
 - [415. 字符串相加](./addStrings)
