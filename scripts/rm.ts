@@ -44,9 +44,10 @@ async function main () {
     } else {
       await unlink(path.resolve(filePath, 'typescript.ts'))
       await unlink(path.resolve(filePath, 'javascript.js'))
+
+      await unlink(path.resolve(filePath, `${codeName}.test.ts`))
     }
 
-    await unlink(path.resolve(filePath, `${codeName}.test.ts`))
     await rmdir(filePath)
 
     await unlink(path.resolve(path.resolve(), 'docs', codeType, `${codeName}.md`))
