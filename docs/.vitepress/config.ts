@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import leetcodeItems from './leetcodeItems'
 import otherItems from './otherItems'
+import typeChallengesItems from './typeChallengesItems'
 
 const base = '/fxss-leetcode/'
 
@@ -52,6 +53,7 @@ export default defineConfig({
       { text: '主页', link: '/' },
       { text: '项目简介', link: '/introduction/' },
       { text: 'leetcode', link: '/leetcode/' },
+      { text: 'type-challenges', link: '/type-challenges/' },
       { text: '其他', link: '/other/' },
       { text: '泛积木-低代码', link: 'https://www.fxss.work/' },
     ],
@@ -67,6 +69,11 @@ export default defineConfig({
           text: 'other',
           collapsed: false,
           items: otherItems
+        },
+        {
+          text: 'type-challenges',
+          collapsed: false,
+          items: typeChallengesItems
         }
       ],
       '/leetcode/': [
@@ -81,6 +88,13 @@ export default defineConfig({
           text: 'other',
           collapsed: false,
           items: otherItems
+        }
+      ],
+      '/type-challenges/': [
+        {
+          text: 'type-challenges',
+          collapsed: false,
+          items: typeChallengesItems
         }
       ],
     },

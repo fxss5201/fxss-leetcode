@@ -17,15 +17,15 @@ export function listAddSort (list: ItemType[]): ItemAddSortType[] {
 }
 
 export function listAddItems (list: ItemType[], addItem: ItemAddSortType): ItemType[] {
-  const itemsAddSort = listAddSort(list)
-  for (let i = 0; i < itemsAddSort.length; i++) {
-    const item = itemsAddSort[i]
-    if ((i === 0 && addItem.sort < item.sort) || (addItem.sort < item.sort && addItem.sort > itemsAddSort[i - 1].sort) || (i === itemsAddSort.length - 1 && addItem.sort > item.sort)) {
-      itemsAddSort.splice(i, 0, addItem)
-      break
-    }
+  if (list.length === 0) {
+    return [{
+      text: addItem.text,
+      link: addItem.link
+    }]
   }
-  return itemsAddSort.map(item => {
+  const itemsAddSort = listAddSort(list)
+  itemsAddSort.push(addItem)
+  return itemsAddSort.sort((a, b) => a.sort - b.sort).map(item => {
     return {
       text: item.text,
       link: item.link

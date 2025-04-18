@@ -5,6 +5,8 @@ import { camelCase } from 'change-case'
 import getDefaultCode from './defaultCode'
 import getDefaultMd from './defaultMd'
 import getDefaultTest from './defaultTest'
+import getTypeChallengesDefaultCode from './typeChallengesDefaultCode'
+import getTypeChallengesDefaultMd from './typeChallengesDefaultMd'
 import updateDocsConfig from './updateDocsConfig'
 import updateDocsMd from './updateDocsMd'
 import { codeTypeList, codeTypeDefault, codeTypeNeedUrl } from './config'
@@ -51,33 +53,53 @@ async function main () {
     await access(filePath, constants.F_OK)
     consola.error('代码段已存在')
   } catch {
-    const defaultCode = getDefaultCode(codeName, codeTitle, codeUrl)
-    await mkdir(filePath, { recursive: true })
-    await writeFile(
-      path.resolve(filePath, 'typescript.ts'),
-      defaultCode
-    )
-    await writeFile(
-      path.resolve(filePath, 'javascript.js'),
-      defaultCode
-    )
+    if (codeType === 'type-challenges') {
+      const defaultCode = getTypeChallengesDefaultCode(codeName, codeTitle, codeUrl)
+      await mkdir(filePath, { recursive: true })
+      await writeFile(
+        path.resolve(filePath, 'index.ts'),
+        defaultCode
+      )
 
-    const defaultTest = getDefaultTest(codeName, codeType)
-    await writeFile(
-      path.resolve(filePath, `${codeName}.test.ts`),
-      defaultTest
-    )
+      const defaultMd = getTypeChallengesDefaultMd(codeName, codeType, codeTitle, codeUrl) 
+      await writeFile(
+        path.resolve(path.resolve(), 'docs', codeType, `${codeName}.md`),
+        defaultMd 
+      )
 
-    const defaultMd = getDefaultMd(codeName, codeType, codeTitle, codeUrl)
-    await writeFile(
-      path.resolve(path.resolve(), 'docs', codeType, `${codeName}.md`),
-      defaultMd
-    )
+      await updateDocsConfig('add', codeName, codeType, codeTitle)
+      await updateDocsMd('add', codeName, codeType, codeTitle)
 
-    await updateDocsConfig('add', codeName, codeType, codeTitle)
-    await updateDocsMd('add', codeName, codeType, codeTitle)
+      consola.success(`代码段 ${codeName} 相关文件已创建成功`)
+    } else {
+      const defaultCode = getDefaultCode(codeName, codeTitle, codeUrl)
+      await mkdir(filePath, { recursive: true })
+      await writeFile(
+        path.resolve(filePath, 'typescript.ts'),
+        defaultCode
+      )
+      await writeFile(
+        path.resolve(filePath, 'javascript.js'),
+        defaultCode
+      )
 
-    consola.success(`代码段 ${codeName} 相关文件已创建成功`)
+      const defaultTest = getDefaultTest(codeName, codeType)
+      await writeFile(
+        path.resolve(filePath, `${codeName}.test.ts`),
+        defaultTest
+      )
+
+      const defaultMd = getDefaultMd(codeName, codeType, codeTitle, codeUrl)
+      await writeFile(
+        path.resolve(path.resolve(), 'docs', codeType, `${codeName}.md`),
+        defaultMd
+      )
+
+      await updateDocsConfig('add', codeName, codeType, codeTitle)
+      await updateDocsMd('add', codeName, codeType, codeTitle)
+
+      consola.success(`代码段 ${codeName} 相关文件已创建成功`)
+    }
   }
 }
 

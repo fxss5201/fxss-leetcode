@@ -4,7 +4,7 @@ import path from 'path'
 import { camelCase } from 'change-case'
 import updateDocsConfig from './updateDocsConfig'
 import updateDocsMd from './updateDocsMd'
-import { codeTypeList, codeTypeDefault, codeTypeNeedUrl } from './config'
+import { codeTypeList, codeTypeDefault } from './config'
 
 async function main () {
   const codeNamePrompt = '请输入代码段名称（字符串key，用于生产文件名，建议使用小驼峰字符串）：'
@@ -39,8 +39,13 @@ async function main () {
       return
     }
 
-    await unlink(path.resolve(filePath, 'typescript.ts'))
-    await unlink(path.resolve(filePath, 'javascript.js'))
+    if (codeType === 'type-challenges') {
+      await unlink(path.resolve(filePath, 'index.ts'))
+    } else {
+      await unlink(path.resolve(filePath, 'typescript.ts'))
+      await unlink(path.resolve(filePath, 'javascript.js'))
+    }
+
     await unlink(path.resolve(filePath, `${codeName}.test.ts`))
     await rmdir(filePath)
 

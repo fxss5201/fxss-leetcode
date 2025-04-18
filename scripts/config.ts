@@ -1,3 +1,3 @@
-export const codeTypeList = ['leetcode', 'other']
+export const codeTypeList = ['leetcode', 'type-challenges', 'other']
 export const codeTypeDefault = 'leetcode'
-export const codeTypeNeedUrl = ['leetcode']
+export const codeTypeNeedUrl = ['leetcode', 'type-challenges']
