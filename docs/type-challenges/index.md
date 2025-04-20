@@ -7,3 +7,6 @@
 - [4. 实现 Pick](./myPick)
 - [7. 对象属性只读](./myReadonly)
 - [11. 元组转换为对象](./tupleToObject)
+- [14. 第一个元素](./first)
+- [18. 获取元组长度](./length)
+- [43. 实现 Exclude](./myExclude)
